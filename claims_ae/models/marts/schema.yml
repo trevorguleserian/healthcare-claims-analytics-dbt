@@ -1,0 +1,146 @@
+version: 2
+
+models:
+  - name: dim_member
+    description: "Member dimension with demographic and geographic attributes."
+    columns:
+      - name: member_id
+        description: "Unique identifier for a member."
+        tests: [not_null, unique]
+      - name: member_first_name
+        description: "Member first name."
+      - name: member_last_name
+        description: "Member last name."
+      - name: dob
+        description: "Date of birth."
+      - name: gender
+        description: "Member gender."
+      - name: zip
+        description: "Member ZIP code."
+
+  - name: dim_provider
+    description: "Provider dimension with specialty, group affiliation, and credential attributes."
+    columns:
+      - name: provider_id
+        description: "Unique identifier for a provider."
+        tests: [not_null, unique]
+      - name: provider_first_name
+        description: "Provider first name."
+      - name: provider_last_name
+        description: "Provider last name."
+      - name: credential
+        description: "Provider credential (e.g., MD, DO, PA, NP)."
+      - name: is_physician
+        description: "Boolean indicating whether provider is a physician (MD/DO)."
+      - name: specialty
+        description: "Provider specialty."
+      - name: provider_group
+        description: "Provider group/organization affiliation."
+      - name: is_active
+        description: "Boolean indicating whether provider is currently active."
+      - name: npi
+        description: "National Provider Identifier."
+
+  - name: fct_claim_line
+    description: "Outpatient/professional claim line fact at claim_id + line_num grain."
+    columns:
+      - name: claim_id
+        description: "Claim header identifier."
+        tests: [not_null]
+      - name: line_num
+        description: "Line number within a claim."
+        tests: [not_null]
+      - name: member_id
+        description: "Member identifier on the claim."
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_member')
+              field: member_id
+      - name: provider_id
+        description: "Provider identifier on the claim."
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_provider')
+              field: provider_id
+      - name: claim_start_date
+        description: "Date of service / claim start date."
+      - name: claim_end_date
+        description: "Claim end date (often same as start for OP claims)."
+      - name: place_of_service
+        description: "Place of service code (e.g., 11=office, 22=outpatient hospital, 23=ER)."
+      - name: payer_type
+        description: "High-level payer category for the claim."
+        tests:
+          - accepted_values:
+              values: ["Commercial","Medicare Advantage","Medicare","Medicaid","Self Pay"]
+      - name: insurance_name
+        description: "Actual insurance carrier name."
+      - name: plan_name
+        description: "Insurance plan name."
+      - name: plan_id
+        description: "Plan identifier (used for coverage/plan joins)."
+      - name: cpt
+        description: "CPT/HCPCS procedure code."
+      - name: modifier_1
+        description: "CPT modifier 1."
+      - name: modifier_2
+        description: "CPT modifier 2."
+      - name: icd10
+        description: "Primary diagnosis code on the claim line."
+      - name: units
+        description: "Service units billed."
+      - name: charge_amount
+        description: "Billed charge amount for the claim line."
+      - name: allowed_amount
+        description: "Contracted allowed amount for the claim line."
+      - name: paid_amount
+        description: "Amount paid for the claim line."
+      - name: contractual_adjustment
+        description: "Charge minus allowed amount (contractual adjustment)."
+      - name: member_or_other_responsibility
+        description: "Allowed minus paid amount (member responsibility or other payer)."
+
+  - name: fct_ip_claim
+    description: "Inpatient DRG-based claim fact at one row per inpatient stay (ip_claim_id grain)."
+    columns:
+      - name: ip_claim_id
+        description: "Unique identifier for an inpatient claim/stay."
+        tests: [not_null, unique]
+      - name: member_id
+        description: "Member identifier for the inpatient stay."
+        tests:
+          - relationships:
+              to: ref('dim_member')
+              field: member_id
+      - name: provider_id
+        description: "Provider identifier associated with the inpatient stay."
+        tests:
+          - relationships:
+              to: ref('dim_provider')
+              field: provider_id
+      - name: admit_date
+        description: "Admission date."
+      - name: discharge_date
+        description: "Discharge date."
+      - name: length_of_stay
+        description: "Length of stay in days."
+      - name: payer_type
+        description: "High-level payer category for the inpatient stay."
+      - name: insurance_name
+        description: "Actual insurance carrier name."
+      - name: plan_name
+        description: "Insurance plan name."
+      - name: plan_id
+        description: "Plan identifier."
+      - name: drg_code
+        description: "DRG code for the inpatient stay."
+      - name: drg_description
+        description: "DRG description."
+      - name: charge_amount
+        description: "Total billed charges for the inpatient stay."
+      - name: allowed_amount
+        description: "Total allowed amount for the inpatient stay."
+      - name: paid_amount
+        description: "Total paid amount for the inpatient stay."

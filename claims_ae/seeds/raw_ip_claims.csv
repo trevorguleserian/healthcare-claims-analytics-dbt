@@ -1,0 +1,501 @@
+ip_claim_id,member_id,provider_id,admit_date,discharge_date,length_of_stay,payer_type,insurance_name,plan_name,plan_id,drg_code,drg_description,charge_amount,allowed_amount,paid_amount
+CIP0000001,M00090,P0004,2025-03-17,2025-03-27,10,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-7744,177,Respiratory Infections & Inflammations w MCC,53766.1,26934.13,17831.61
+CIP0000002,M00011,P0039,2025-01-19,2025-01-21,2,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-6930,470,Major Joint Replacement w/o MCC,18367.83,11399.08,7622.31
+CIP0000003,M00184,P0029,2025-08-17,2025-08-19,2,Medicare Advantage,Blue Cross Blue Shield,Medicare Advantage PPO,BCBS-MA-2929,552,Medical Back Problems w/o MCC,58270.65,26728.5,24431.06
+CIP0000004,M00295,P0016,2025-07-30,2025-08-02,3,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-8231,194,Simple Pneumonia & Pleurisy w CC,61341.08,22728.44,20566.32
+CIP0000005,M00280,P0050,2025-06-20,2025-06-30,10,Self Pay,Self Pay,Self Pay,SPAY-2712,552,Medical Back Problems w/o MCC,23527.28,9911.87,8285.34
+CIP0000006,M00008,P0035,2025-08-24,2025-08-31,7,Medicare,CMS Medicare,Original Medicare,MCR-OG-8573,871,Septicemia w MCC,63829.72,21100.67,17483.33
+CIP0000007,M00261,P0003,2025-08-28,2025-08-29,1,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-7375,177,Respiratory Infections & Inflammations w MCC,76267.61,46480.97,42868.24
+CIP0000008,M00277,P0052,2025-05-07,2025-05-09,2,Commercial,Aetna,Open Access,AET-OA-9796,291,Heart Failure & Shock w MCC,54279.41,28931.86,18023.67
+CIP0000009,M00255,P0006,2025-05-25,2025-05-29,4,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-3937,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",56282.6,24228.93,20046.34
+CIP0000010,M00375,P0024,2025-01-12,2025-01-16,4,Commercial,Aetna,Open Access,AET-OA-4892,177,Respiratory Infections & Inflammations w MCC,79926.57,52815.25,31971.21
+CIP0000011,M00350,P0052,2025-11-17,2025-11-21,4,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-4811,177,Respiratory Infections & Inflammations w MCC,70343.59,48602.13,43225.65
+CIP0000012,M00207,P0056,2025-09-15,2025-09-19,4,Medicare Advantage,Humana,Gold Plus HMO,HUM-MA-7035,194,Simple Pneumonia & Pleurisy w CC,60145.18,41496.08,25383.49
+CIP0000013,M00196,P0057,2025-03-16,2025-03-18,2,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-3353,552,Medical Back Problems w/o MCC,78604.79,51875.22,38144.29
+CIP0000014,M00050,P0054,2025-05-07,2025-05-08,1,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-6085,552,Medical Back Problems w/o MCC,60162.04,25280.43,18729.89
+CIP0000015,M00288,P0044,2025-09-20,2025-09-23,3,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-2388,291,Heart Failure & Shock w MCC,21573.85,7927.87,6959.02
+CIP0000016,M00180,P0015,2025-05-11,2025-05-14,3,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-2229,177,Respiratory Infections & Inflammations w MCC,65019.66,34706.32,26265.68
+CIP0000017,M00043,P0059,2025-02-24,2025-02-27,3,Commercial,Aetna,Open Access,AET-OA-3925,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",15717.09,5442.05,4025.59
+CIP0000018,M00236,P0052,2025-11-01,2025-11-05,4,Medicare,CMS Medicare,Original Medicare,MCR-OG-8585,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",18384.43,6917.08,4578.46
+CIP0000019,M00167,P0060,2025-04-19,2025-04-23,4,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-2298,552,Medical Back Problems w/o MCC,77003.5,29299.84,19802.01
+CIP0000020,M00084,P0006,2025-03-26,2025-03-30,4,Commercial,Aetna,Open Access,AET-OA-5632,470,Major Joint Replacement w/o MCC,55458.8,35922.38,31081.73
+CIP0000021,M00277,P0041,2025-02-16,2025-02-21,5,Commercial,Aetna,Open Access,AET-OA-9796,194,Simple Pneumonia & Pleurisy w CC,35104.07,15497.11,14113.86
+CIP0000022,M00037,P0052,2025-02-04,2025-02-09,5,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-9938,552,Medical Back Problems w/o MCC,58848.81,28164.25,23935.41
+CIP0000023,M00131,P0031,2025-02-11,2025-02-14,3,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-2527,291,Heart Failure & Shock w MCC,20568.36,8196.28,7717.0
+CIP0000024,M00185,P0008,2025-06-20,2025-06-21,1,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-2213,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",71130.87,40439.64,24296.56
+CIP0000025,M00027,P0018,2025-11-14,2025-11-18,4,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-1958,871,Septicemia w MCC,19732.46,7046.23,4371.11
+CIP0000026,M00140,P0032,2025-07-15,2025-07-19,4,Medicare,CMS Medicare,Original Medicare,MCR-OG-4612,291,Heart Failure & Shock w MCC,47763.57,27984.16,17315.59
+CIP0000027,M00168,P0037,2025-01-28,2025-01-31,3,Medicare,CMS Medicare,Original Medicare,MCR-OG-5934,552,Medical Back Problems w/o MCC,27748.6,17211.12,15309.46
+CIP0000028,M00069,P0031,2025-02-07,2025-02-08,1,Medicare,CMS Medicare,Original Medicare,MCR-OG-8136,470,Major Joint Replacement w/o MCC,52130.04,33837.13,27480.97
+CIP0000029,M00064,P0030,2025-02-04,2025-02-06,2,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-4571,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",40117.52,22716.44,17526.92
+CIP0000030,M00152,P0011,2025-05-09,2025-05-13,4,Medicare Advantage,Blue Cross Blue Shield,Medicare Advantage PPO,BCBS-MA-3471,470,Major Joint Replacement w/o MCC,72104.43,43835.63,30117.83
+CIP0000031,M00168,P0017,2025-01-30,2025-02-01,2,Medicare,CMS Medicare,Original Medicare,MCR-OG-5934,552,Medical Back Problems w/o MCC,69037.65,30860.35,19565.6
+CIP0000032,M00085,P0016,2025-09-15,2025-09-22,7,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-3441,470,Major Joint Replacement w/o MCC,16746.49,9823.39,6497.46
+CIP0000033,M00113,P0019,2025-01-17,2025-01-19,2,Commercial,Cigna,Open Access Plus,CIG-OAP-5835,177,Respiratory Infections & Inflammations w MCC,64679.44,35419.46,30936.54
+CIP0000034,M00033,P0036,2025-06-11,2025-06-13,2,Commercial,Aetna,Open Access,AET-OA-9666,194,Simple Pneumonia & Pleurisy w CC,58340.31,19666.92,12301.86
+CIP0000035,M00340,P0023,2025-01-15,2025-01-18,3,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-1357,552,Medical Back Problems w/o MCC,24559.78,14694.99,9182.62
+CIP0000036,M00048,P0048,2025-10-13,2025-10-16,3,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-5978,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",20789.63,13856.07,11767.1
+CIP0000037,M00193,P0016,2025-01-09,2025-01-13,4,Medicare,CMS Medicare,Original Medicare,MCR-OG-1674,177,Respiratory Infections & Inflammations w MCC,38564.72,21314.74,17448.53
+CIP0000038,M00161,P0035,2025-05-01,2025-05-05,4,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-6070,470,Major Joint Replacement w/o MCC,44001.32,19906.39,14639.33
+CIP0000039,M00120,P0049,2025-12-15,2025-12-16,1,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-7018,291,Heart Failure & Shock w MCC,44106.53,28302.0,19325.16
+CIP0000040,M00208,P0004,2025-01-28,2025-01-30,2,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-4728,291,Heart Failure & Shock w MCC,50666.05,26128.25,16450.78
+CIP0000041,M00304,P0011,2025-10-24,2025-10-25,1,Medicare,CMS Medicare,Original Medicare,MCR-OG-1752,871,Septicemia w MCC,64729.86,44187.64,29032.49
+CIP0000042,M00279,P0038,2025-08-10,2025-08-13,3,Medicare Advantage,Blue Cross Blue Shield,Medicare Advantage PPO,BCBS-MA-4621,470,Major Joint Replacement w/o MCC,61027.84,30545.06,26014.1
+CIP0000043,M00188,P0046,2025-12-26,2025-12-27,1,Medicare,CMS Medicare,Original Medicare,MCR-OG-2412,194,Simple Pneumonia & Pleurisy w CC,65293.81,31160.33,20823.29
+CIP0000044,M00104,P0055,2025-09-13,2025-09-15,2,Commercial,Aetna,Open Access,AET-OA-1474,291,Heart Failure & Shock w MCC,39946.54,14307.96,12216.99
+CIP0000045,M00182,P0058,2025-11-05,2025-11-07,2,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-3513,177,Respiratory Infections & Inflammations w MCC,54228.14,37663.69,23205.88
+CIP0000046,M00103,P0051,2025-02-20,2025-02-25,5,Medicare,CMS Medicare,Original Medicare,MCR-OG-4727,470,Major Joint Replacement w/o MCC,52999.52,30933.49,26618.08
+CIP0000047,M00321,P0044,2025-05-19,2025-05-23,4,Commercial,Aetna,Open Access,AET-OA-9568,470,Major Joint Replacement w/o MCC,28339.61,15790.57,13158.69
+CIP0000048,M00143,P0007,2025-10-17,2025-10-18,1,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-6129,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",25409.06,11171.2,9283.21
+CIP0000049,M00124,P0055,2025-12-11,2025-12-14,3,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-6304,470,Major Joint Replacement w/o MCC,61323.61,42253.12,30236.31
+CIP0000050,M00324,P0010,2025-06-13,2025-06-14,1,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-4742,291,Heart Failure & Shock w MCC,44911.85,22320.06,20202.94
+CIP0000051,M00171,P0035,2025-06-16,2025-06-17,1,Self Pay,Self Pay,Self Pay,SPAY-9618,291,Heart Failure & Shock w MCC,28724.37,13466.6,9565.71
+CIP0000052,M00273,P0018,2025-05-21,2025-05-22,1,Self Pay,Self Pay,Self Pay,SPAY-9044,177,Respiratory Infections & Inflammations w MCC,55167.28,31895.25,26621.81
+CIP0000053,M00174,P0018,2025-05-07,2025-05-14,7,Medicare,CMS Medicare,Original Medicare,MCR-OG-2033,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",27379.84,11587.3,8999.12
+CIP0000054,M00257,P0056,2025-09-08,2025-09-09,1,Medicare,CMS Medicare,Original Medicare,MCR-OG-1519,871,Septicemia w MCC,57024.92,33326.55,22013.01
+CIP0000055,M00375,P0056,2025-11-17,2025-11-18,1,Commercial,Aetna,Open Access,AET-OA-4892,194,Simple Pneumonia & Pleurisy w CC,59177.41,19583.44,14128.8
+CIP0000056,M00242,P0045,2025-01-20,2025-01-22,2,Commercial,Cigna,Open Access Plus,CIG-OAP-4012,177,Respiratory Infections & Inflammations w MCC,32263.49,11700.37,10263.64
+CIP0000057,M00351,P0054,2025-12-08,2025-12-13,5,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-3137,194,Simple Pneumonia & Pleurisy w CC,78317.84,24099.33,19756.67
+CIP0000058,M00324,P0034,2025-01-23,2025-01-26,3,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-4742,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",50916.13,25875.78,17646.16
+CIP0000059,M00065,P0026,2025-04-17,2025-04-18,1,Self Pay,Self Pay,Self Pay,SPAY-1420,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",12830.93,8657.04,6873.91
+CIP0000060,M00203,P0058,2025-10-01,2025-10-05,4,Commercial,Cigna,Open Access Plus,CIG-OAP-5582,177,Respiratory Infections & Inflammations w MCC,37948.16,20573.91,17856.8
+CIP0000061,M00257,P0057,2025-01-06,2025-01-08,2,Medicare,CMS Medicare,Original Medicare,MCR-OG-1519,194,Simple Pneumonia & Pleurisy w CC,79316.78,33796.5,21778.29
+CIP0000062,M00192,P0030,2025-04-09,2025-04-16,7,Commercial,Aetna,Open Access,AET-OA-9740,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",78900.92,38551.13,24268.88
+CIP0000063,M00014,P0009,2025-08-19,2025-08-21,2,Commercial,Cigna,Open Access Plus,CIG-OAP-1053,871,Septicemia w MCC,22284.4,8996.45,5545.98
+CIP0000064,M00319,P0056,2025-05-28,2025-05-30,2,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-6081,470,Major Joint Replacement w/o MCC,13117.46,8773.52,8331.14
+CIP0000065,M00183,P0049,2025-09-25,2025-09-27,2,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-6150,291,Heart Failure & Shock w MCC,70938.34,46408.64,31657.1
+CIP0000066,M00289,P0018,2025-08-30,2025-09-06,7,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-9369,194,Simple Pneumonia & Pleurisy w CC,76114.32,50876.68,35100.77
+CIP0000067,M00284,P0057,2025-06-06,2025-06-11,5,Commercial,Cigna,Open Access Plus,CIG-OAP-4022,194,Simple Pneumonia & Pleurisy w CC,28504.16,16781.28,13348.55
+CIP0000068,M00261,P0014,2025-08-21,2025-08-24,3,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-7375,871,Septicemia w MCC,77657.66,50461.2,47343.93
+CIP0000069,M00032,P0050,2025-09-13,2025-09-15,2,Medicare Advantage,Blue Cross Blue Shield,Medicare Advantage PPO,BCBS-MA-5345,194,Simple Pneumonia & Pleurisy w CC,26678.7,16917.47,14889.76
+CIP0000070,M00080,P0049,2025-04-22,2025-05-02,10,Medicare Advantage,Blue Cross Blue Shield,Medicare Advantage PPO,BCBS-MA-1878,194,Simple Pneumonia & Pleurisy w CC,77554.23,28234.1,25795.2
+CIP0000071,M00004,P0050,2025-10-27,2025-11-03,7,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-6881,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",47559.02,30859.35,26163.3
+CIP0000072,M00154,P0045,2025-12-31,2026-01-02,2,Commercial,Aetna,Open Access,AET-OA-7347,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",70968.96,28769.86,18349.22
+CIP0000073,M00206,P0033,2025-10-31,2025-11-05,5,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-3662,177,Respiratory Infections & Inflammations w MCC,73903.63,43238.04,26621.58
+CIP0000074,M00002,P0017,2025-11-24,2025-11-28,4,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-4257,871,Septicemia w MCC,60991.96,39042.75,26205.38
+CIP0000075,M00061,P0037,2025-03-08,2025-03-11,3,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-1823,177,Respiratory Infections & Inflammations w MCC,66414.43,25566.2,23880.56
+CIP0000076,M00307,P0018,2025-06-25,2025-06-28,3,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-2559,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",53757.72,17012.93,16067.42
+CIP0000077,M00141,P0056,2025-03-24,2025-03-31,7,Medicare,CMS Medicare,Original Medicare,MCR-OG-5742,552,Medical Back Problems w/o MCC,38538.96,20382.01,12966.33
+CIP0000078,M00322,P0049,2025-05-06,2025-05-09,3,Medicare,CMS Medicare,Original Medicare,MCR-OG-6488,470,Major Joint Replacement w/o MCC,14160.97,9007.22,7508.0
+CIP0000079,M00371,P0006,2025-02-23,2025-02-27,4,Self Pay,Self Pay,Self Pay,SPAY-4308,552,Medical Back Problems w/o MCC,43891.67,28424.85,20532.28
+CIP0000080,M00225,P0008,2025-12-29,2026-01-02,4,Commercial,Aetna,Open Access,AET-OA-6400,177,Respiratory Infections & Inflammations w MCC,30270.32,14284.31,11804.96
+CIP0000081,M00304,P0018,2025-03-09,2025-03-14,5,Medicare,CMS Medicare,Original Medicare,MCR-OG-1752,291,Heart Failure & Shock w MCC,17685.75,12338.62,8761.54
+CIP0000082,M00306,P0003,2025-04-16,2025-04-20,4,Medicare,CMS Medicare,Original Medicare,MCR-OG-2350,871,Septicemia w MCC,14861.01,5749.08,4530.21
+CIP0000083,M00137,P0051,2025-11-25,2025-11-26,1,Commercial,Aetna,Open Access,AET-OA-6314,194,Simple Pneumonia & Pleurisy w CC,59834.54,24833.75,22856.86
+CIP0000084,M00164,P0054,2025-04-22,2025-04-26,4,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-8167,177,Respiratory Infections & Inflammations w MCC,28631.07,10143.42,6804.48
+CIP0000085,M00253,P0015,2025-05-21,2025-05-23,2,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-1990,871,Septicemia w MCC,67761.05,44517.94,31260.38
+CIP0000086,M00393,P0017,2025-04-14,2025-04-17,3,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-3470,871,Septicemia w MCC,67851.32,39829.9,33782.45
+CIP0000087,M00185,P0019,2025-12-07,2025-12-08,1,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-2213,470,Major Joint Replacement w/o MCC,38956.52,23494.72,19318.61
+CIP0000088,M00158,P0023,2025-10-30,2025-11-03,4,Commercial,Cigna,Open Access Plus,CIG-OAP-4145,194,Simple Pneumonia & Pleurisy w CC,41701.63,13593.01,9412.83
+CIP0000089,M00157,P0040,2025-12-02,2025-12-05,3,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-7937,470,Major Joint Replacement w/o MCC,12359.13,3719.02,3198.77
+CIP0000090,M00086,P0009,2025-07-09,2025-07-12,3,Commercial,Cigna,Open Access Plus,CIG-OAP-5982,177,Respiratory Infections & Inflammations w MCC,71490.82,29053.36,21613.05
+CIP0000091,M00099,P0010,2025-10-09,2025-10-12,3,Commercial,Cigna,Open Access Plus,CIG-OAP-7246,470,Major Joint Replacement w/o MCC,33757.01,15736.04,14533.87
+CIP0000092,M00343,P0024,2025-03-12,2025-03-16,4,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-5835,177,Respiratory Infections & Inflammations w MCC,57337.62,33569.78,29836.49
+CIP0000093,M00078,P0019,2025-11-16,2025-11-21,5,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-5786,871,Septicemia w MCC,48678.07,19834.36,13586.74
+CIP0000094,M00275,P0054,2025-10-04,2025-10-05,1,Medicare,CMS Medicare,Original Medicare,MCR-OG-7703,177,Respiratory Infections & Inflammations w MCC,33323.23,20905.06,12938.68
+CIP0000095,M00229,P0016,2025-06-06,2025-06-13,7,Medicare,CMS Medicare,Original Medicare,MCR-OG-9609,552,Medical Back Problems w/o MCC,74769.16,29735.87,19174.68
+CIP0000096,M00209,P0009,2025-07-24,2025-08-03,10,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-1517,470,Major Joint Replacement w/o MCC,48022.06,32390.81,26495.73
+CIP0000097,M00354,P0040,2025-11-03,2025-11-05,2,Medicare,CMS Medicare,Original Medicare,MCR-OG-4657,552,Medical Back Problems w/o MCC,29609.71,15988.99,10392.29
+CIP0000098,M00302,P0017,2025-08-04,2025-08-11,7,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-2526,194,Simple Pneumonia & Pleurisy w CC,58928.92,24562.22,17674.28
+CIP0000099,M00344,P0013,2025-02-01,2025-02-08,7,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-9614,470,Major Joint Replacement w/o MCC,34008.92,16131.95,14361.06
+CIP0000100,M00202,P0056,2025-03-01,2025-03-03,2,Medicare,CMS Medicare,Original Medicare,MCR-OG-1741,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",53296.25,18736.23,12449.8
+CIP0000101,M00252,P0047,2025-09-13,2025-09-16,3,Medicare,CMS Medicare,Original Medicare,MCR-OG-3252,177,Respiratory Infections & Inflammations w MCC,39524.99,15356.38,12590.37
+CIP0000102,M00035,P0034,2025-09-05,2025-09-10,5,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-1832,552,Medical Back Problems w/o MCC,69107.01,23298.18,18765.58
+CIP0000103,M00211,P0007,2025-05-01,2025-05-08,7,Medicare Advantage,Blue Cross Blue Shield,Medicare Advantage PPO,BCBS-MA-6325,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",43729.35,25014.85,21207.58
+CIP0000104,M00198,P0018,2025-01-05,2025-01-12,7,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-2586,552,Medical Back Problems w/o MCC,13946.36,5501.69,3734.96
+CIP0000105,M00191,P0029,2025-10-08,2025-10-10,2,Commercial,Aetna,Open Access,AET-OA-4694,871,Septicemia w MCC,27608.47,14468.11,10212.28
+CIP0000106,M00381,P0060,2025-10-20,2025-10-24,4,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-3909,470,Major Joint Replacement w/o MCC,24352.68,16581.8,15224.49
+CIP0000107,M00026,P0010,2025-07-09,2025-07-14,5,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-7396,194,Simple Pneumonia & Pleurisy w CC,57379.95,25619.24,22440.89
+CIP0000108,M00078,P0049,2025-03-13,2025-03-16,3,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-5786,194,Simple Pneumonia & Pleurisy w CC,35691.18,12333.43,10171.13
+CIP0000109,M00199,P0045,2025-02-19,2025-02-22,3,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-4110,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",69793.59,41396.54,38983.27
+CIP0000110,M00057,P0052,2025-12-19,2025-12-21,2,Medicare Advantage,Humana,Gold Plus HMO,HUM-MA-4388,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",43635.14,26920.45,19127.82
+CIP0000111,M00155,P0015,2025-02-18,2025-02-28,10,Commercial,Cigna,Open Access Plus,CIG-OAP-5655,291,Heart Failure & Shock w MCC,13096.07,7979.14,7499.5
+CIP0000112,M00056,P0024,2025-02-28,2025-03-07,7,Commercial,Cigna,Open Access Plus,CIG-OAP-3503,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",74035.81,25671.92,18723.36
+CIP0000113,M00070,P0042,2025-06-05,2025-06-07,2,Commercial,Cigna,Open Access Plus,CIG-OAP-4995,871,Septicemia w MCC,48904.42,32438.54,30503.34
+CIP0000114,M00297,P0021,2025-03-06,2025-03-07,1,Commercial,Aetna,Open Access,AET-OA-8015,194,Simple Pneumonia & Pleurisy w CC,58554.67,34778.84,28665.42
+CIP0000115,M00231,P0033,2025-05-27,2025-05-28,1,Medicare,CMS Medicare,Original Medicare,MCR-OG-2489,194,Simple Pneumonia & Pleurisy w CC,68832.16,38665.02,30012.55
+CIP0000116,M00297,P0028,2025-06-11,2025-06-21,10,Commercial,Aetna,Open Access,AET-OA-8015,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",50203.19,33899.22,21730.5
+CIP0000117,M00128,P0025,2025-02-26,2025-02-28,2,Commercial,Aetna,Open Access,AET-OA-7240,552,Medical Back Problems w/o MCC,66057.47,38153.3,23769.58
+CIP0000118,M00185,P0024,2025-09-01,2025-09-08,7,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-2213,177,Respiratory Infections & Inflammations w MCC,26603.62,12065.02,10617.75
+CIP0000119,M00006,P0014,2025-04-06,2025-04-10,4,Medicare,CMS Medicare,Original Medicare,MCR-OG-2307,177,Respiratory Infections & Inflammations w MCC,18195.74,9577.87,7741.48
+CIP0000120,M00204,P0029,2025-04-30,2025-05-03,3,Medicare,CMS Medicare,Original Medicare,MCR-OG-6990,871,Septicemia w MCC,58930.88,26611.85,19559.66
+CIP0000121,M00114,P0012,2025-07-30,2025-08-09,10,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-6992,871,Septicemia w MCC,59225.03,35562.47,21703.48
+CIP0000122,M00074,P0011,2025-03-14,2025-03-18,4,Medicare,CMS Medicare,Original Medicare,MCR-OG-8753,552,Medical Back Problems w/o MCC,19772.75,7196.89,6073.68
+CIP0000123,M00145,P0046,2025-12-22,2025-12-29,7,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-8138,194,Simple Pneumonia & Pleurisy w CC,52868.47,22085.94,13577.26
+CIP0000124,M00117,P0058,2025-06-22,2025-06-29,7,Medicare,CMS Medicare,Original Medicare,MCR-OG-3290,552,Medical Back Problems w/o MCC,40728.01,16319.42,15012.96
+CIP0000125,M00263,P0022,2025-06-26,2025-07-03,7,Commercial,Aetna,Open Access,AET-OA-8381,177,Respiratory Infections & Inflammations w MCC,72719.72,39240.45,26637.02
+CIP0000126,M00232,P0018,2025-12-11,2025-12-18,7,Medicare Advantage,Blue Cross Blue Shield,Medicare Advantage PPO,BCBS-MA-8575,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",29969.7,9756.74,6081.64
+CIP0000127,M00387,P0051,2025-04-08,2025-04-12,4,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-1930,177,Respiratory Infections & Inflammations w MCC,25402.31,13519.52,12819.58
+CIP0000128,M00346,P0030,2025-11-18,2025-11-20,2,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-1480,177,Respiratory Infections & Inflammations w MCC,58374.16,23625.78,22260.82
+CIP0000129,M00233,P0015,2025-11-21,2025-11-22,1,Medicare Advantage,Humana,Gold Plus HMO,HUM-MA-7941,194,Simple Pneumonia & Pleurisy w CC,12130.5,6186.69,4322.34
+CIP0000130,M00126,P0021,2025-08-02,2025-08-06,4,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-9543,291,Heart Failure & Shock w MCC,15011.99,7382.52,6906.23
+CIP0000131,M00295,P0010,2025-06-07,2025-06-12,5,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-8231,871,Septicemia w MCC,41995.31,19410.28,12725.55
+CIP0000132,M00389,P0021,2025-04-07,2025-04-14,7,Medicare,CMS Medicare,Original Medicare,MCR-OG-9759,871,Septicemia w MCC,79501.45,52407.88,48030.51
+CIP0000133,M00100,P0054,2025-01-09,2025-01-11,2,Self Pay,Self Pay,Self Pay,SPAY-2644,871,Septicemia w MCC,17643.09,6912.73,6442.99
+CIP0000134,M00296,P0049,2025-03-08,2025-03-12,4,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-8368,470,Major Joint Replacement w/o MCC,65620.61,35748.26,27213.15
+CIP0000135,M00376,P0030,2025-10-23,2025-10-24,1,Commercial,Cigna,Open Access Plus,CIG-OAP-2609,552,Medical Back Problems w/o MCC,43254.06,17948.45,14102.57
+CIP0000136,M00330,P0055,2025-09-25,2025-09-29,4,Commercial,Aetna,Open Access,AET-OA-1157,871,Septicemia w MCC,73037.58,31303.25,25553.8
+CIP0000137,M00122,P0053,2025-07-24,2025-07-31,7,Self Pay,Self Pay,Self Pay,SPAY-2124,291,Heart Failure & Shock w MCC,23777.61,16119.25,9742.41
+CIP0000138,M00344,P0010,2025-06-27,2025-07-07,10,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-9614,177,Respiratory Infections & Inflammations w MCC,22110.95,8152.62,6337.91
+CIP0000139,M00060,P0050,2025-05-08,2025-05-18,10,Self Pay,Self Pay,Self Pay,SPAY-7455,291,Heart Failure & Shock w MCC,48577.43,26388.89,18708.0
+CIP0000140,M00386,P0046,2025-05-04,2025-05-09,5,Medicare,CMS Medicare,Original Medicare,MCR-OG-2045,177,Respiratory Infections & Inflammations w MCC,50634.83,22864.18,17746.12
+CIP0000141,M00237,P0045,2025-02-27,2025-02-28,1,Medicare Advantage,Humana,Gold Plus HMO,HUM-MA-5516,552,Medical Back Problems w/o MCC,44610.2,22298.16,20947.23
+CIP0000142,M00075,P0013,2025-03-20,2025-03-25,5,Medicare,CMS Medicare,Original Medicare,MCR-OG-6023,291,Heart Failure & Shock w MCC,23831.18,16224.34,13969.02
+CIP0000143,M00277,P0032,2025-08-28,2025-08-30,2,Commercial,Aetna,Open Access,AET-OA-9796,194,Simple Pneumonia & Pleurisy w CC,58335.21,18730.67,16563.19
+CIP0000144,M00338,P0001,2025-09-07,2025-09-09,2,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-1509,871,Septicemia w MCC,33618.25,23197.4,16275.94
+CIP0000145,M00289,P0024,2025-03-05,2025-03-09,4,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-9369,552,Medical Back Problems w/o MCC,74696.85,35284.03,29690.02
+CIP0000146,M00068,P0040,2025-01-13,2025-01-20,7,Commercial,Aetna,Open Access,AET-OA-8532,552,Medical Back Problems w/o MCC,51514.85,33607.81,28194.28
+CIP0000147,M00032,P0042,2025-02-11,2025-02-13,2,Medicare Advantage,Blue Cross Blue Shield,Medicare Advantage PPO,BCBS-MA-5345,194,Simple Pneumonia & Pleurisy w CC,64544.95,42454.25,37904.81
+CIP0000148,M00040,P0047,2025-01-08,2025-01-10,2,Medicare,CMS Medicare,Original Medicare,MCR-OG-5065,552,Medical Back Problems w/o MCC,74725.44,34101.64,29823.02
+CIP0000149,M00283,P0016,2025-01-14,2025-01-17,3,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-9454,291,Heart Failure & Shock w MCC,47089.3,19048.5,16397.49
+CIP0000150,M00269,P0017,2025-11-18,2025-11-22,4,Commercial,Aetna,Open Access,AET-OA-9079,177,Respiratory Infections & Inflammations w MCC,17332.96,8894.81,6433.44
+CIP0000151,M00284,P0059,2025-03-22,2025-03-26,4,Commercial,Cigna,Open Access Plus,CIG-OAP-4022,291,Heart Failure & Shock w MCC,75886.5,46324.4,43658.97
+CIP0000152,M00262,P0010,2025-11-18,2025-11-19,1,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-1879,470,Major Joint Replacement w/o MCC,65551.45,41400.5,27594.14
+CIP0000153,M00359,P0007,2025-01-19,2025-01-29,10,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-6754,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",73461.96,45287.21,30975.9
+CIP0000154,M00286,P0023,2025-11-03,2025-11-05,2,Medicare,CMS Medicare,Original Medicare,MCR-OG-6993,470,Major Joint Replacement w/o MCC,30385.65,12264.62,9429.84
+CIP0000155,M00328,P0039,2025-01-17,2025-01-22,5,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-4287,552,Medical Back Problems w/o MCC,70096.27,28956.13,25742.93
+CIP0000156,M00232,P0059,2025-03-27,2025-03-28,1,Medicare Advantage,Blue Cross Blue Shield,Medicare Advantage PPO,BCBS-MA-8575,291,Heart Failure & Shock w MCC,72531.91,37279.95,30908.02
+CIP0000157,M00271,P0030,2025-10-20,2025-10-21,1,Commercial,Aetna,Open Access,AET-OA-1110,177,Respiratory Infections & Inflammations w MCC,75566.45,25774.21,23462.18
+CIP0000158,M00276,P0023,2025-11-04,2025-11-07,3,Medicare,CMS Medicare,Original Medicare,MCR-OG-7176,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",79391.81,44785.4,35816.99
+CIP0000159,M00157,P0048,2025-11-24,2025-11-26,2,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-7937,194,Simple Pneumonia & Pleurisy w CC,75322.51,26872.29,16325.33
+CIP0000160,M00104,P0006,2025-11-08,2025-11-13,5,Commercial,Aetna,Open Access,AET-OA-1474,552,Medical Back Problems w/o MCC,49588.29,31165.67,25075.33
+CIP0000161,M00243,P0024,2025-12-06,2025-12-09,3,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-7824,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",36494.68,14390.6,13117.36
+CIP0000162,M00395,P0057,2025-08-27,2025-08-31,4,Medicare Advantage,Humana,Gold Plus HMO,HUM-MA-3762,291,Heart Failure & Shock w MCC,65759.14,41801.23,34399.18
+CIP0000163,M00282,P0004,2025-03-15,2025-03-19,4,Commercial,Aetna,Open Access,AET-OA-1732,552,Medical Back Problems w/o MCC,21496.36,11645.37,10108.8
+CIP0000164,M00110,P0032,2025-04-04,2025-04-06,2,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-4770,291,Heart Failure & Shock w MCC,19070.22,7339.54,6444.75
+CIP0000165,M00387,P0008,2025-04-10,2025-04-20,10,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-1930,194,Simple Pneumonia & Pleurisy w CC,70757.64,31439.43,20401.2
+CIP0000166,M00396,P0054,2025-07-31,2025-08-02,2,Commercial,Cigna,Open Access Plus,CIG-OAP-7280,291,Heart Failure & Shock w MCC,35998.15,15464.2,12086.03
+CIP0000167,M00348,P0010,2025-09-10,2025-09-12,2,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-3885,552,Medical Back Problems w/o MCC,61319.56,20083.74,18566.23
+CIP0000168,M00379,P0029,2025-04-15,2025-04-16,1,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-1944,291,Heart Failure & Shock w MCC,17340.36,11933.18,10974.51
+CIP0000169,M00298,P0010,2025-03-31,2025-04-04,4,Medicare Advantage,Blue Cross Blue Shield,Medicare Advantage PPO,BCBS-MA-5605,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",62184.5,27409.73,19493.96
+CIP0000170,M00327,P0010,2025-02-26,2025-03-03,5,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-7568,194,Simple Pneumonia & Pleurisy w CC,42804.26,27079.03,21527.16
+CIP0000171,M00162,P0023,2025-01-02,2025-01-05,3,Medicare,CMS Medicare,Original Medicare,MCR-OG-9239,291,Heart Failure & Shock w MCC,41808.64,19247.3,15724.57
+CIP0000172,M00317,P0048,2025-05-28,2025-05-29,1,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-9300,871,Septicemia w MCC,26077.68,16008.51,14154.13
+CIP0000173,M00296,P0013,2025-09-22,2025-09-23,1,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-8368,291,Heart Failure & Shock w MCC,47975.19,17962.28,11785.82
+CIP0000174,M00236,P0052,2025-12-27,2025-12-29,2,Medicare,CMS Medicare,Original Medicare,MCR-OG-8585,194,Simple Pneumonia & Pleurisy w CC,75243.31,50053.06,33524.33
+CIP0000175,M00392,P0049,2025-01-23,2025-01-24,1,Medicare Advantage,Blue Cross Blue Shield,Medicare Advantage PPO,BCBS-MA-2166,291,Heart Failure & Shock w MCC,58090.63,19419.69,15733.58
+CIP0000176,M00129,P0011,2025-03-21,2025-03-28,7,Medicare,CMS Medicare,Original Medicare,MCR-OG-4522,194,Simple Pneumonia & Pleurisy w CC,17314.56,10133.7,6510.05
+CIP0000177,M00363,P0046,2025-03-12,2025-03-13,1,Medicare,CMS Medicare,Original Medicare,MCR-OG-5612,871,Septicemia w MCC,51074.71,16459.78,15292.36
+CIP0000178,M00260,P0014,2025-05-18,2025-05-23,5,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-3938,291,Heart Failure & Shock w MCC,39955.38,25401.62,18889.8
+CIP0000179,M00180,P0043,2025-09-10,2025-09-12,2,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-2229,291,Heart Failure & Shock w MCC,58512.39,20538.71,18153.97
+CIP0000180,M00007,P0029,2025-05-22,2025-05-23,1,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-5374,291,Heart Failure & Shock w MCC,56260.08,23131.28,19605.56
+CIP0000181,M00212,P0023,2025-12-28,2025-12-29,1,Commercial,Aetna,Open Access,AET-OA-5331,194,Simple Pneumonia & Pleurisy w CC,20084.48,12571.95,8701.18
+CIP0000182,M00291,P0032,2025-12-21,2025-12-23,2,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-6882,177,Respiratory Infections & Inflammations w MCC,77893.66,48415.02,40877.0
+CIP0000183,M00177,P0017,2025-10-27,2025-10-30,3,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-9129,291,Heart Failure & Shock w MCC,49259.98,25877.67,22727.57
+CIP0000184,M00007,P0009,2025-07-01,2025-07-04,3,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-5374,177,Respiratory Infections & Inflammations w MCC,41753.48,24354.18,16626.85
+CIP0000185,M00100,P0042,2025-04-28,2025-04-30,2,Self Pay,Self Pay,Self Pay,SPAY-2644,552,Medical Back Problems w/o MCC,54374.6,19287.33,14538.86
+CIP0000186,M00044,P0054,2025-06-26,2025-06-27,1,Medicare,CMS Medicare,Original Medicare,MCR-OG-8149,552,Medical Back Problems w/o MCC,78990.26,29818.27,26829.42
+CIP0000187,M00305,P0014,2025-08-01,2025-08-04,3,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-4314,470,Major Joint Replacement w/o MCC,31890.38,13644.64,9472.29
+CIP0000188,M00295,P0007,2025-03-09,2025-03-10,1,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-8231,291,Heart Failure & Shock w MCC,28664.43,16130.24,14977.72
+CIP0000189,M00289,P0026,2025-02-09,2025-02-13,4,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-9369,291,Heart Failure & Shock w MCC,23750.92,14157.6,10301.89
+CIP0000190,M00116,P0050,2025-05-23,2025-05-25,2,Medicare Advantage,Blue Cross Blue Shield,Medicare Advantage PPO,BCBS-MA-6374,552,Medical Back Problems w/o MCC,77179.34,48177.59,29350.64
+CIP0000191,M00258,P0010,2025-03-07,2025-03-12,5,Medicare,CMS Medicare,Original Medicare,MCR-OG-2354,470,Major Joint Replacement w/o MCC,59276.67,26354.78,15895.84
+CIP0000192,M00364,P0032,2025-07-22,2025-07-26,4,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-8005,470,Major Joint Replacement w/o MCC,71614.08,42918.25,39651.17
+CIP0000193,M00141,P0059,2025-05-08,2025-05-15,7,Medicare,CMS Medicare,Original Medicare,MCR-OG-5742,291,Heart Failure & Shock w MCC,21482.61,13004.92,9974.39
+CIP0000194,M00033,P0027,2025-03-08,2025-03-09,1,Commercial,Aetna,Open Access,AET-OA-9666,194,Simple Pneumonia & Pleurisy w CC,53777.2,27436.59,18728.74
+CIP0000195,M00347,P0028,2025-01-24,2025-01-27,3,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-5366,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",59100.57,36614.66,24822.87
+CIP0000196,M00254,P0046,2025-01-30,2025-02-01,2,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-1194,177,Respiratory Infections & Inflammations w MCC,37713.9,21924.06,20310.23
+CIP0000197,M00001,P0012,2025-10-26,2025-10-28,2,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-9935,470,Major Joint Replacement w/o MCC,44044.75,16228.24,12405.01
+CIP0000198,M00240,P0007,2025-12-31,2026-01-04,4,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-9540,552,Medical Back Problems w/o MCC,65560.08,25857.28,21008.54
+CIP0000199,M00062,P0045,2025-04-14,2025-04-15,1,Medicare,CMS Medicare,Original Medicare,MCR-OG-5558,291,Heart Failure & Shock w MCC,17089.48,5632.27,5001.47
+CIP0000200,M00081,P0041,2025-10-27,2025-10-28,1,Medicare,CMS Medicare,Original Medicare,MCR-OG-9561,552,Medical Back Problems w/o MCC,46067.13,19364.1,15914.94
+CIP0000201,M00128,P0029,2025-07-03,2025-07-08,5,Commercial,Aetna,Open Access,AET-OA-7240,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",62148.99,24367.74,18383.82
+CIP0000202,M00034,P0058,2025-09-30,2025-10-01,1,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-3546,552,Medical Back Problems w/o MCC,17558.49,10461.27,6411.14
+CIP0000203,M00250,P0046,2025-05-24,2025-05-26,2,Medicare Advantage,Blue Cross Blue Shield,Medicare Advantage PPO,BCBS-MA-6530,194,Simple Pneumonia & Pleurisy w CC,71257.81,42472.14,36055.07
+CIP0000204,M00247,P0001,2025-02-11,2025-02-15,4,Commercial,Aetna,Open Access,AET-OA-6053,177,Respiratory Infections & Inflammations w MCC,62509.18,41950.92,33286.67
+CIP0000205,M00020,P0026,2025-02-24,2025-02-26,2,Medicare,CMS Medicare,Original Medicare,MCR-OG-4750,177,Respiratory Infections & Inflammations w MCC,69965.68,38549.6,28067.35
+CIP0000206,M00183,P0003,2025-09-05,2025-09-07,2,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-6150,470,Major Joint Replacement w/o MCC,56880.29,34096.0,31355.06
+CIP0000207,M00151,P0015,2025-07-17,2025-07-18,1,Medicare,CMS Medicare,Original Medicare,MCR-OG-9307,291,Heart Failure & Shock w MCC,66108.16,24546.19,16500.08
+CIP0000208,M00191,P0030,2025-01-29,2025-01-30,1,Commercial,Aetna,Open Access,AET-OA-4694,871,Septicemia w MCC,56763.87,26691.73,24598.54
+CIP0000209,M00087,P0013,2025-10-08,2025-10-10,2,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-8078,194,Simple Pneumonia & Pleurisy w CC,17385.39,8463.54,6765.35
+CIP0000210,M00305,P0060,2025-09-20,2025-09-23,3,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-4314,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",64637.95,31265.37,22683.99
+CIP0000211,M00193,P0009,2025-11-02,2025-11-03,1,Medicare,CMS Medicare,Original Medicare,MCR-OG-1674,291,Heart Failure & Shock w MCC,20319.78,6654.0,4139.8
+CIP0000212,M00156,P0055,2025-09-27,2025-10-01,4,Commercial,Cigna,Open Access Plus,CIG-OAP-3112,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",62612.54,28852.43,20085.84
+CIP0000213,M00286,P0058,2025-02-09,2025-02-11,2,Medicare,CMS Medicare,Original Medicare,MCR-OG-6993,291,Heart Failure & Shock w MCC,18723.86,6417.89,4411.34
+CIP0000214,M00257,P0015,2025-05-01,2025-05-05,4,Medicare,CMS Medicare,Original Medicare,MCR-OG-1519,871,Septicemia w MCC,38046.09,12896.31,10507.46
+CIP0000215,M00037,P0054,2025-03-08,2025-03-11,3,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-9938,871,Septicemia w MCC,75959.03,41470.11,32892.2
+CIP0000216,M00319,P0005,2025-12-04,2025-12-08,4,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-6081,194,Simple Pneumonia & Pleurisy w CC,66566.29,30423.22,25592.97
+CIP0000217,M00343,P0034,2025-02-08,2025-02-09,1,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-5835,470,Major Joint Replacement w/o MCC,12026.94,4538.99,3590.3
+CIP0000218,M00116,P0044,2025-03-16,2025-03-17,1,Medicare Advantage,Blue Cross Blue Shield,Medicare Advantage PPO,BCBS-MA-6374,470,Major Joint Replacement w/o MCC,70178.69,44997.19,39498.0
+CIP0000219,M00090,P0015,2025-04-27,2025-04-28,1,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-7744,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",14961.21,5285.56,4716.05
+CIP0000220,M00040,P0037,2025-09-17,2025-09-21,4,Medicare,CMS Medicare,Original Medicare,MCR-OG-5065,470,Major Joint Replacement w/o MCC,65375.86,41863.89,34767.0
+CIP0000221,M00199,P0045,2025-06-16,2025-06-18,2,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-4110,470,Major Joint Replacement w/o MCC,61908.72,30616.67,22337.77
+CIP0000222,M00314,P0014,2025-09-24,2025-09-26,2,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-4921,552,Medical Back Problems w/o MCC,74751.84,25440.3,16826.42
+CIP0000223,M00195,P0008,2025-06-18,2025-06-25,7,Medicare,CMS Medicare,Original Medicare,MCR-OG-5873,871,Septicemia w MCC,68986.95,23166.96,15049.26
+CIP0000224,M00371,P0011,2025-06-29,2025-06-30,1,Self Pay,Self Pay,Self Pay,SPAY-4308,871,Septicemia w MCC,34329.17,17820.12,15112.47
+CIP0000225,M00262,P0032,2025-10-07,2025-10-09,2,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-1879,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",67982.26,24755.94,21855.31
+CIP0000226,M00138,P0059,2025-07-12,2025-07-14,2,Medicare,CMS Medicare,Original Medicare,MCR-OG-8259,552,Medical Back Problems w/o MCC,43305.76,15642.36,13427.92
+CIP0000227,M00351,P0059,2025-12-20,2025-12-24,4,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-3137,291,Heart Failure & Shock w MCC,69786.9,28409.11,19489.93
+CIP0000228,M00297,P0029,2025-07-11,2025-07-12,1,Commercial,Aetna,Open Access,AET-OA-8015,552,Medical Back Problems w/o MCC,15712.76,7666.09,5932.44
+CIP0000229,M00013,P0008,2025-09-25,2025-09-26,1,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-2876,871,Septicemia w MCC,78254.79,54769.71,50085.84
+CIP0000230,M00397,P0032,2025-09-29,2025-10-02,3,Medicare,CMS Medicare,Original Medicare,MCR-OG-1293,194,Simple Pneumonia & Pleurisy w CC,37250.34,14142.67,12187.6
+CIP0000231,M00009,P0049,2025-09-28,2025-09-29,1,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-7572,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",58351.43,39682.14,29420.25
+CIP0000232,M00106,P0026,2025-07-11,2025-07-13,2,Medicare Advantage,Blue Cross Blue Shield,Medicare Advantage PPO,BCBS-MA-3344,194,Simple Pneumonia & Pleurisy w CC,37345.82,22207.87,14454.69
+CIP0000233,M00199,P0027,2025-04-20,2025-04-22,2,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-4110,552,Medical Back Problems w/o MCC,51416.23,19599.8,13472.71
+CIP0000234,M00362,P0016,2025-06-09,2025-06-19,10,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-8113,291,Heart Failure & Shock w MCC,75266.95,33051.53,23356.57
+CIP0000235,M00358,P0013,2025-10-15,2025-10-19,4,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-1020,871,Septicemia w MCC,49661.56,34348.01,30767.78
+CIP0000236,M00286,P0010,2025-12-19,2025-12-21,2,Medicare,CMS Medicare,Original Medicare,MCR-OG-6993,177,Respiratory Infections & Inflammations w MCC,68972.43,32215.9,23161.54
+CIP0000237,M00367,P0014,2025-05-21,2025-05-26,5,Commercial,Aetna,Open Access,AET-OA-4706,470,Major Joint Replacement w/o MCC,59418.86,27073.14,17444.22
+CIP0000238,M00157,P0042,2025-12-11,2025-12-12,1,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-7937,194,Simple Pneumonia & Pleurisy w CC,18132.43,7924.45,7042.81
+CIP0000239,M00326,P0033,2025-02-09,2025-02-10,1,Commercial,Cigna,Open Access Plus,CIG-OAP-6241,552,Medical Back Problems w/o MCC,15729.45,5545.27,4607.07
+CIP0000240,M00168,P0047,2025-12-24,2025-12-31,7,Medicare,CMS Medicare,Original Medicare,MCR-OG-5934,291,Heart Failure & Shock w MCC,30873.46,18989.99,16282.13
+CIP0000241,M00016,P0051,2025-01-01,2025-01-04,3,Commercial,Aetna,Open Access,AET-OA-6038,194,Simple Pneumonia & Pleurisy w CC,45268.81,26488.49,21677.77
+CIP0000242,M00400,P0055,2025-02-22,2025-02-23,1,Self Pay,Self Pay,Self Pay,SPAY-6885,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",25657.62,9323.35,5883.34
+CIP0000243,M00040,P0038,2025-11-15,2025-11-20,5,Medicare,CMS Medicare,Original Medicare,MCR-OG-5065,291,Heart Failure & Shock w MCC,56315.84,23575.3,15307.64
+CIP0000244,M00073,P0032,2025-09-04,2025-09-09,5,Medicare,CMS Medicare,Original Medicare,MCR-OG-8342,552,Medical Back Problems w/o MCC,30569.75,12601.31,11490.54
+CIP0000245,M00001,P0049,2025-11-06,2025-11-07,1,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-9935,871,Septicemia w MCC,40897.97,27356.72,22431.79
+CIP0000246,M00344,P0006,2025-01-08,2025-01-11,3,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-9614,177,Respiratory Infections & Inflammations w MCC,47423.01,14775.03,12314.91
+CIP0000247,M00214,P0030,2025-10-30,2025-11-01,2,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-5715,291,Heart Failure & Shock w MCC,47897.44,15616.66,10461.19
+CIP0000248,M00288,P0045,2025-04-10,2025-04-15,5,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-2388,470,Major Joint Replacement w/o MCC,71634.52,45345.65,27264.68
+CIP0000249,M00223,P0019,2025-10-12,2025-10-14,2,Medicare,CMS Medicare,Original Medicare,MCR-OG-3875,871,Septicemia w MCC,55338.8,32106.27,25341.57
+CIP0000250,M00349,P0047,2025-07-25,2025-07-26,1,Medicare,CMS Medicare,Original Medicare,MCR-OG-3328,552,Medical Back Problems w/o MCC,14889.53,7454.57,4892.67
+CIP0000251,M00304,P0055,2025-10-13,2025-10-15,2,Medicare,CMS Medicare,Original Medicare,MCR-OG-1752,177,Respiratory Infections & Inflammations w MCC,50975.99,30927.7,24020.66
+CIP0000252,M00293,P0044,2025-10-16,2025-10-20,4,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-4613,470,Major Joint Replacement w/o MCC,29327.69,13692.61,9108.81
+CIP0000253,M00370,P0012,2025-11-09,2025-11-16,7,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-3832,871,Septicemia w MCC,70328.12,42328.98,34381.16
+CIP0000254,M00257,P0040,2025-10-30,2025-11-09,10,Medicare,CMS Medicare,Original Medicare,MCR-OG-1519,871,Septicemia w MCC,24389.77,12325.94,7625.53
+CIP0000255,M00321,P0005,2025-06-24,2025-06-25,1,Commercial,Aetna,Open Access,AET-OA-9568,871,Septicemia w MCC,49997.73,30291.44,26471.39
+CIP0000256,M00089,P0043,2025-04-17,2025-04-19,2,Self Pay,Self Pay,Self Pay,SPAY-9056,552,Medical Back Problems w/o MCC,19279.14,7818.95,4839.43
+CIP0000257,M00207,P0055,2025-01-28,2025-01-29,1,Medicare Advantage,Humana,Gold Plus HMO,HUM-MA-7035,291,Heart Failure & Shock w MCC,57932.2,20824.21,16114.83
+CIP0000258,M00302,P0054,2025-08-22,2025-08-24,2,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-2526,194,Simple Pneumonia & Pleurisy w CC,26654.67,11561.52,7563.29
+CIP0000259,M00299,P0032,2025-11-21,2025-11-25,4,Medicare Advantage,Blue Cross Blue Shield,Medicare Advantage PPO,BCBS-MA-2560,470,Major Joint Replacement w/o MCC,63261.84,22777.08,19565.83
+CIP0000260,M00148,P0002,2025-07-09,2025-07-12,3,Commercial,Cigna,Open Access Plus,CIG-OAP-8601,291,Heart Failure & Shock w MCC,23410.53,10075.66,8969.3
+CIP0000261,M00154,P0052,2025-12-04,2025-12-08,4,Commercial,Aetna,Open Access,AET-OA-7347,871,Septicemia w MCC,61195.17,26279.95,18560.42
+CIP0000262,M00208,P0045,2025-11-10,2025-11-12,2,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-4728,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",66953.81,22591.57,19037.77
+CIP0000263,M00377,P0009,2025-01-05,2025-01-06,1,Medicare,CMS Medicare,Original Medicare,MCR-OG-4079,177,Respiratory Infections & Inflammations w MCC,28063.38,16656.32,13938.26
+CIP0000264,M00121,P0024,2025-11-10,2025-11-13,3,Self Pay,Self Pay,Self Pay,SPAY-2501,291,Heart Failure & Shock w MCC,55092.84,37609.51,34501.22
+CIP0000265,M00262,P0053,2025-12-20,2025-12-25,5,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-1879,871,Septicemia w MCC,60090.23,37639.2,28015.33
+CIP0000266,M00300,P0008,2025-08-23,2025-08-27,4,Commercial,Aetna,Open Access,AET-OA-5055,470,Major Joint Replacement w/o MCC,12784.32,5296.34,3222.03
+CIP0000267,M00019,P0060,2025-06-25,2025-06-26,1,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-6539,552,Medical Back Problems w/o MCC,54907.58,18221.03,11140.6
+CIP0000268,M00155,P0033,2025-03-13,2025-03-16,3,Commercial,Cigna,Open Access Plus,CIG-OAP-5655,552,Medical Back Problems w/o MCC,44794.39,18286.02,15349.3
+CIP0000269,M00144,P0011,2025-02-02,2025-02-05,3,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-6321,871,Septicemia w MCC,49152.23,29082.53,18624.76
+CIP0000270,M00131,P0024,2025-01-19,2025-01-21,2,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-2527,871,Septicemia w MCC,37417.33,14730.09,13586.62
+CIP0000271,M00026,P0004,2025-12-22,2025-12-24,2,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-7396,470,Major Joint Replacement w/o MCC,18864.49,10385.25,9609.36
+CIP0000272,M00341,P0053,2025-03-10,2025-03-15,5,Commercial,Cigna,Open Access Plus,CIG-OAP-1829,871,Septicemia w MCC,32161.54,10682.68,7572.45
+CIP0000273,M00173,P0046,2025-07-04,2025-07-11,7,Medicare,CMS Medicare,Original Medicare,MCR-OG-3185,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",27558.53,17951.27,13075.41
+CIP0000274,M00047,P0014,2025-08-02,2025-08-04,2,Commercial,Aetna,Open Access,AET-OA-3085,871,Septicemia w MCC,60725.86,28883.45,21385.33
+CIP0000275,M00216,P0027,2025-01-13,2025-01-20,7,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-5450,871,Septicemia w MCC,77426.37,24331.02,17675.32
+CIP0000276,M00157,P0025,2025-09-25,2025-09-30,5,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-7937,552,Medical Back Problems w/o MCC,27458.71,14138.32,10402.57
+CIP0000277,M00025,P0018,2025-08-05,2025-08-07,2,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-3724,552,Medical Back Problems w/o MCC,65776.17,40807.85,33284.24
+CIP0000278,M00041,P0032,2025-09-03,2025-09-04,1,Commercial,Cigna,Open Access Plus,CIG-OAP-6728,291,Heart Failure & Shock w MCC,14520.69,8523.1,5960.63
+CIP0000279,M00040,P0047,2025-04-05,2025-04-12,7,Medicare,CMS Medicare,Original Medicare,MCR-OG-5065,291,Heart Failure & Shock w MCC,12301.03,8333.68,7463.5
+CIP0000280,M00079,P0018,2025-11-03,2025-11-06,3,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-6582,177,Respiratory Infections & Inflammations w MCC,50456.78,20827.56,17322.61
+CIP0000281,M00340,P0006,2025-11-13,2025-11-17,4,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-1357,177,Respiratory Infections & Inflammations w MCC,15213.1,8452.15,5611.38
+CIP0000282,M00003,P0012,2025-02-23,2025-02-24,1,Medicare,CMS Medicare,Original Medicare,MCR-OG-7924,194,Simple Pneumonia & Pleurisy w CC,58546.42,24747.56,20819.5
+CIP0000283,M00190,P0043,2025-09-27,2025-09-30,3,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-3114,552,Medical Back Problems w/o MCC,79960.27,44695.98,28235.33
+CIP0000284,M00064,P0048,2025-05-03,2025-05-06,3,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-4571,177,Respiratory Infections & Inflammations w MCC,66556.14,27862.94,19226.01
+CIP0000285,M00382,P0004,2025-01-03,2025-01-05,2,Commercial,Cigna,Open Access Plus,CIG-OAP-1813,470,Major Joint Replacement w/o MCC,22159.2,7804.59,5873.22
+CIP0000286,M00184,P0049,2025-06-24,2025-06-28,4,Medicare Advantage,Blue Cross Blue Shield,Medicare Advantage PPO,BCBS-MA-2929,194,Simple Pneumonia & Pleurisy w CC,19861.0,8978.86,8407.99
+CIP0000287,M00077,P0006,2025-09-29,2025-10-02,3,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-4727,291,Heart Failure & Shock w MCC,74088.27,24674.88,19487.75
+CIP0000288,M00065,P0028,2025-08-31,2025-09-01,1,Self Pay,Self Pay,Self Pay,SPAY-1420,291,Heart Failure & Shock w MCC,57794.07,33998.78,22053.96
+CIP0000289,M00057,P0013,2025-11-30,2025-12-04,4,Medicare Advantage,Humana,Gold Plus HMO,HUM-MA-4388,871,Septicemia w MCC,67609.45,46654.09,33201.96
+CIP0000290,M00341,P0035,2025-02-06,2025-02-10,4,Commercial,Cigna,Open Access Plus,CIG-OAP-1829,552,Medical Back Problems w/o MCC,58806.22,19684.43,15681.28
+CIP0000291,M00093,P0017,2025-03-10,2025-03-13,3,Commercial,Cigna,Open Access Plus,CIG-OAP-2989,871,Septicemia w MCC,47910.6,17673.28,14447.86
+CIP0000292,M00259,P0050,2025-04-14,2025-04-15,1,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-4463,291,Heart Failure & Shock w MCC,45101.33,16871.66,14971.85
+CIP0000293,M00368,P0020,2025-02-15,2025-02-17,2,Medicare,CMS Medicare,Original Medicare,MCR-OG-4727,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",69809.03,29425.64,18252.89
+CIP0000294,M00165,P0046,2025-02-14,2025-02-15,1,Commercial,Aetna,Open Access,AET-OA-4862,291,Heart Failure & Shock w MCC,79297.02,53358.4,36506.07
+CIP0000295,M00057,P0039,2025-01-05,2025-01-08,3,Medicare Advantage,Humana,Gold Plus HMO,HUM-MA-4388,552,Medical Back Problems w/o MCC,41908.65,23033.55,19863.91
+CIP0000296,M00019,P0046,2025-04-12,2025-04-13,1,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-6539,470,Major Joint Replacement w/o MCC,60552.51,38696.35,30324.48
+CIP0000297,M00220,P0045,2025-12-07,2025-12-14,7,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-1595,552,Medical Back Problems w/o MCC,43118.61,19854.96,14116.13
+CIP0000298,M00239,P0009,2025-10-23,2025-11-02,10,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-1924,552,Medical Back Problems w/o MCC,21603.26,11149.86,8937.11
+CIP0000299,M00001,P0005,2025-09-25,2025-09-28,3,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-9935,552,Medical Back Problems w/o MCC,17432.88,8255.9,7559.16
+CIP0000300,M00204,P0035,2025-05-17,2025-05-24,7,Medicare,CMS Medicare,Original Medicare,MCR-OG-6990,552,Medical Back Problems w/o MCC,22683.65,6952.33,4595.0
+CIP0000301,M00343,P0024,2025-01-26,2025-01-29,3,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-5835,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",67902.53,41545.92,35607.98
+CIP0000302,M00162,P0031,2025-02-18,2025-02-22,4,Medicare,CMS Medicare,Original Medicare,MCR-OG-9239,552,Medical Back Problems w/o MCC,77840.55,50291.48,44612.97
+CIP0000303,M00381,P0005,2025-08-13,2025-08-16,3,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-3909,470,Major Joint Replacement w/o MCC,44734.46,26186.46,20537.21
+CIP0000304,M00235,P0059,2025-03-09,2025-03-10,1,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-6697,470,Major Joint Replacement w/o MCC,70866.92,24639.86,21469.76
+CIP0000305,M00031,P0052,2025-01-31,2025-02-01,1,Medicare,CMS Medicare,Original Medicare,MCR-OG-8491,871,Septicemia w MCC,12175.02,7699.19,7073.92
+CIP0000306,M00077,P0035,2025-06-20,2025-06-25,5,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-4727,177,Respiratory Infections & Inflammations w MCC,30911.95,10031.08,6747.85
+CIP0000307,M00011,P0001,2025-03-26,2025-04-05,10,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-6930,194,Simple Pneumonia & Pleurisy w CC,45783.61,23073.26,21745.84
+CIP0000308,M00201,P0039,2025-03-09,2025-03-13,4,Commercial,Cigna,Open Access Plus,CIG-OAP-5681,194,Simple Pneumonia & Pleurisy w CC,72080.69,39603.09,35907.29
+CIP0000309,M00097,P0018,2025-07-21,2025-07-23,2,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-1042,470,Major Joint Replacement w/o MCC,48549.0,26313.42,17714.97
+CIP0000310,M00207,P0013,2025-07-30,2025-08-06,7,Medicare Advantage,Humana,Gold Plus HMO,HUM-MA-7035,871,Septicemia w MCC,56974.94,19262.79,16646.73
+CIP0000311,M00129,P0005,2025-04-28,2025-04-29,1,Medicare,CMS Medicare,Original Medicare,MCR-OG-4522,194,Simple Pneumonia & Pleurisy w CC,61413.76,27647.91,20082.68
+CIP0000312,M00081,P0018,2025-08-02,2025-08-04,2,Medicare,CMS Medicare,Original Medicare,MCR-OG-9561,871,Septicemia w MCC,14889.78,9460.65,7720.68
+CIP0000313,M00080,P0050,2025-11-18,2025-11-19,1,Medicare Advantage,Blue Cross Blue Shield,Medicare Advantage PPO,BCBS-MA-1878,291,Heart Failure & Shock w MCC,64577.7,19994.4,18025.54
+CIP0000314,M00346,P0022,2025-06-14,2025-06-17,3,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-1480,194,Simple Pneumonia & Pleurisy w CC,73218.95,42476.09,25855.82
+CIP0000315,M00344,P0047,2025-03-31,2025-04-04,4,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-9614,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",31947.45,21728.27,17913.65
+CIP0000316,M00234,P0011,2025-08-04,2025-08-07,3,Commercial,Cigna,Open Access Plus,CIG-OAP-3948,177,Respiratory Infections & Inflammations w MCC,22545.83,10212.12,7810.18
+CIP0000317,M00078,P0032,2025-06-17,2025-06-19,2,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-5786,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",48934.18,26401.99,17292.55
+CIP0000318,M00129,P0031,2025-07-30,2025-08-02,3,Medicare,CMS Medicare,Original Medicare,MCR-OG-4522,291,Heart Failure & Shock w MCC,48922.7,24529.63,16125.98
+CIP0000319,M00324,P0035,2025-10-23,2025-11-02,10,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-4742,177,Respiratory Infections & Inflammations w MCC,22651.22,7622.01,5652.71
+CIP0000320,M00071,P0037,2025-05-20,2025-05-24,4,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-6813,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",52809.64,21768.16,15361.66
+CIP0000321,M00212,P0044,2025-04-26,2025-04-28,2,Commercial,Aetna,Open Access,AET-OA-5331,177,Respiratory Infections & Inflammations w MCC,43742.05,22584.06,15070.19
+CIP0000322,M00107,P0054,2025-04-12,2025-04-14,2,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-2210,177,Respiratory Infections & Inflammations w MCC,12115.96,5103.21,3440.05
+CIP0000323,M00281,P0003,2025-02-03,2025-02-04,1,Commercial,Cigna,Open Access Plus,CIG-OAP-4389,552,Medical Back Problems w/o MCC,26655.57,14231.22,9211.62
+CIP0000324,M00064,P0023,2025-09-23,2025-09-27,4,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-4571,194,Simple Pneumonia & Pleurisy w CC,44454.13,14296.4,11487.09
+CIP0000325,M00330,P0002,2025-11-08,2025-11-11,3,Commercial,Aetna,Open Access,AET-OA-1157,552,Medical Back Problems w/o MCC,54679.9,24910.2,22783.51
+CIP0000326,M00223,P0013,2025-07-24,2025-07-28,4,Medicare,CMS Medicare,Original Medicare,MCR-OG-3875,291,Heart Failure & Shock w MCC,34881.38,23062.33,19458.42
+CIP0000327,M00338,P0025,2025-07-28,2025-07-29,1,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-1509,552,Medical Back Problems w/o MCC,12176.88,4886.61,4086.62
+CIP0000328,M00088,P0029,2025-04-22,2025-04-23,1,Self Pay,Self Pay,Self Pay,SPAY-1659,470,Major Joint Replacement w/o MCC,38342.47,21783.94,17236.9
+CIP0000329,M00382,P0017,2025-04-01,2025-04-02,1,Commercial,Cigna,Open Access Plus,CIG-OAP-1813,177,Respiratory Infections & Inflammations w MCC,38038.55,16797.63,11069.77
+CIP0000330,M00296,P0002,2025-01-09,2025-01-12,3,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-8368,470,Major Joint Replacement w/o MCC,50591.29,21027.83,14158.72
+CIP0000331,M00130,P0041,2025-08-17,2025-08-19,2,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-6120,177,Respiratory Infections & Inflammations w MCC,45777.42,30975.24,27314.04
+CIP0000332,M00240,P0013,2025-11-30,2025-12-03,3,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-9540,552,Medical Back Problems w/o MCC,29481.36,14479.16,12930.2
+CIP0000333,M00149,P0017,2025-10-09,2025-10-11,2,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-8682,470,Major Joint Replacement w/o MCC,68813.01,34389.59,25783.34
+CIP0000334,M00086,P0051,2025-03-10,2025-03-20,10,Commercial,Cigna,Open Access Plus,CIG-OAP-5982,194,Simple Pneumonia & Pleurisy w CC,50469.61,32594.91,22792.33
+CIP0000335,M00155,P0031,2025-05-10,2025-05-14,4,Commercial,Cigna,Open Access Plus,CIG-OAP-5655,291,Heart Failure & Shock w MCC,50891.61,28240.89,18574.42
+CIP0000336,M00036,P0011,2025-11-21,2025-11-22,1,Medicare,CMS Medicare,Original Medicare,MCR-OG-3647,552,Medical Back Problems w/o MCC,28569.06,11064.52,8428.39
+CIP0000337,M00023,P0053,2025-11-17,2025-11-21,4,Commercial,Aetna,Open Access,AET-OA-2790,177,Respiratory Infections & Inflammations w MCC,59620.93,34616.96,23969.59
+CIP0000338,M00392,P0015,2025-03-14,2025-03-17,3,Medicare Advantage,Blue Cross Blue Shield,Medicare Advantage PPO,BCBS-MA-2166,552,Medical Back Problems w/o MCC,21099.5,7665.67,5032.97
+CIP0000339,M00216,P0054,2025-03-27,2025-03-31,4,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-5450,552,Medical Back Problems w/o MCC,13052.99,4245.6,3808.66
+CIP0000340,M00112,P0054,2025-12-09,2025-12-13,4,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-7807,291,Heart Failure & Shock w MCC,56378.08,26335.01,20820.61
+CIP0000341,M00032,P0035,2025-08-28,2025-09-04,7,Medicare Advantage,Blue Cross Blue Shield,Medicare Advantage PPO,BCBS-MA-5345,291,Heart Failure & Shock w MCC,55402.08,30536.28,27461.72
+CIP0000342,M00371,P0003,2025-06-25,2025-06-27,2,Self Pay,Self Pay,Self Pay,SPAY-4308,552,Medical Back Problems w/o MCC,21522.47,11956.02,11250.03
+CIP0000343,M00126,P0012,2025-08-17,2025-08-21,4,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-9543,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",61629.54,35426.94,32979.55
+CIP0000344,M00087,P0041,2025-07-28,2025-08-04,7,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-8078,177,Respiratory Infections & Inflammations w MCC,26285.48,9905.98,8794.87
+CIP0000345,M00400,P0016,2025-08-12,2025-08-14,2,Self Pay,Self Pay,Self Pay,SPAY-6885,291,Heart Failure & Shock w MCC,28028.63,14758.56,9429.33
+CIP0000346,M00268,P0011,2025-03-01,2025-03-05,4,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-4977,470,Major Joint Replacement w/o MCC,61941.64,25972.26,16056.19
+CIP0000347,M00012,P0045,2025-03-29,2025-03-30,1,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-7916,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",24609.62,16759.91,13236.91
+CIP0000348,M00262,P0030,2025-03-14,2025-03-15,1,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-1879,177,Respiratory Infections & Inflammations w MCC,72549.81,30259.37,27738.59
+CIP0000349,M00283,P0009,2025-09-07,2025-09-09,2,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-9454,871,Septicemia w MCC,48452.13,16992.92,10724.25
+CIP0000350,M00158,P0004,2025-05-06,2025-05-10,4,Commercial,Cigna,Open Access Plus,CIG-OAP-4145,871,Septicemia w MCC,68663.82,35715.91,22153.24
+CIP0000351,M00320,P0005,2025-12-08,2025-12-11,3,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-6067,291,Heart Failure & Shock w MCC,62263.39,39355.51,28293.88
+CIP0000352,M00302,P0017,2025-09-08,2025-09-11,3,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-2526,177,Respiratory Infections & Inflammations w MCC,31464.69,10834.17,7725.42
+CIP0000353,M00256,P0007,2025-02-07,2025-02-12,5,Commercial,Cigna,Open Access Plus,CIG-OAP-2294,871,Septicemia w MCC,61133.69,28994.01,27229.84
+CIP0000354,M00265,P0032,2025-08-20,2025-08-25,5,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-7383,291,Heart Failure & Shock w MCC,52029.17,31996.13,26257.47
+CIP0000355,M00371,P0007,2025-09-18,2025-09-20,2,Self Pay,Self Pay,Self Pay,SPAY-4308,291,Heart Failure & Shock w MCC,25979.55,10419.03,7874.38
+CIP0000356,M00293,P0001,2025-09-13,2025-09-14,1,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-4613,177,Respiratory Infections & Inflammations w MCC,19792.78,6243.77,5320.49
+CIP0000357,M00270,P0057,2025-01-29,2025-01-31,2,Medicare Advantage,Humana,Gold Plus HMO,HUM-MA-6916,291,Heart Failure & Shock w MCC,16657.92,5940.16,4877.8
+CIP0000358,M00027,P0055,2025-02-05,2025-02-10,5,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-1958,871,Septicemia w MCC,78190.05,43455.36,34383.33
+CIP0000359,M00247,P0006,2025-03-11,2025-03-12,1,Commercial,Aetna,Open Access,AET-OA-6053,177,Respiratory Infections & Inflammations w MCC,66074.78,27567.49,19537.88
+CIP0000360,M00353,P0010,2025-01-16,2025-01-20,4,Commercial,Aetna,Open Access,AET-OA-3235,177,Respiratory Infections & Inflammations w MCC,13067.67,5070.21,4557.17
+CIP0000361,M00212,P0009,2025-01-30,2025-02-09,10,Commercial,Aetna,Open Access,AET-OA-5331,871,Septicemia w MCC,14116.64,8959.32,8173.58
+CIP0000362,M00185,P0006,2025-09-17,2025-09-19,2,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-2213,177,Respiratory Infections & Inflammations w MCC,64092.68,34482.27,29971.4
+CIP0000363,M00220,P0055,2025-06-24,2025-06-28,4,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-1595,552,Medical Back Problems w/o MCC,17664.56,7193.99,6271.91
+CIP0000364,M00115,P0046,2025-05-18,2025-05-22,4,Commercial,Aetna,Open Access,AET-OA-7242,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",50645.34,29172.58,25739.46
+CIP0000365,M00375,P0023,2025-08-03,2025-08-06,3,Commercial,Aetna,Open Access,AET-OA-4892,194,Simple Pneumonia & Pleurisy w CC,31825.19,11812.54,8965.47
+CIP0000366,M00121,P0016,2025-03-31,2025-04-02,2,Self Pay,Self Pay,Self Pay,SPAY-2501,291,Heart Failure & Shock w MCC,13592.25,6545.39,5475.69
+CIP0000367,M00378,P0018,2025-10-09,2025-10-12,3,Medicare Advantage,Humana,Gold Plus HMO,HUM-MA-2075,470,Major Joint Replacement w/o MCC,30545.02,16682.71,11533.03
+CIP0000368,M00314,P0009,2025-07-13,2025-07-17,4,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-4921,552,Medical Back Problems w/o MCC,20678.79,11389.69,10034.7
+CIP0000369,M00065,P0054,2025-10-10,2025-10-20,10,Self Pay,Self Pay,Self Pay,SPAY-1420,194,Simple Pneumonia & Pleurisy w CC,56023.37,22530.73,17487.59
+CIP0000370,M00069,P0004,2025-04-25,2025-05-05,10,Medicare,CMS Medicare,Original Medicare,MCR-OG-8136,291,Heart Failure & Shock w MCC,60047.84,21207.29,19459.29
+CIP0000371,M00099,P0019,2025-05-02,2025-05-04,2,Commercial,Cigna,Open Access Plus,CIG-OAP-7246,470,Major Joint Replacement w/o MCC,40970.0,15274.0,11956.73
+CIP0000372,M00150,P0037,2025-03-19,2025-03-22,3,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-8565,291,Heart Failure & Shock w MCC,53878.47,24615.05,21469.13
+CIP0000373,M00132,P0054,2025-05-14,2025-05-21,7,Medicare Advantage,Blue Cross Blue Shield,Medicare Advantage PPO,BCBS-MA-3002,470,Major Joint Replacement w/o MCC,14636.19,4654.66,3359.45
+CIP0000374,M00260,P0040,2025-11-02,2025-11-05,3,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-3938,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",42893.53,23240.03,14643.38
+CIP0000375,M00244,P0003,2025-05-01,2025-05-04,3,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-8369,194,Simple Pneumonia & Pleurisy w CC,12597.99,7324.46,6482.24
+CIP0000376,M00018,P0051,2025-12-07,2025-12-14,7,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-6107,177,Respiratory Infections & Inflammations w MCC,66829.83,44138.85,41810.46
+CIP0000377,M00197,P0049,2025-03-03,2025-03-04,1,Commercial,Aetna,Open Access,AET-OA-9437,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",66730.25,21999.68,16106.03
+CIP0000378,M00115,P0015,2025-01-05,2025-01-08,3,Commercial,Aetna,Open Access,AET-OA-7242,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",72415.0,25871.87,18668.62
+CIP0000379,M00121,P0028,2025-05-11,2025-05-12,1,Self Pay,Self Pay,Self Pay,SPAY-2501,470,Major Joint Replacement w/o MCC,65626.65,24857.52,22208.6
+CIP0000380,M00263,P0021,2025-08-05,2025-08-08,3,Commercial,Aetna,Open Access,AET-OA-8381,177,Respiratory Infections & Inflammations w MCC,57994.71,23651.16,18334.53
+CIP0000381,M00212,P0016,2025-01-04,2025-01-11,7,Commercial,Aetna,Open Access,AET-OA-5331,470,Major Joint Replacement w/o MCC,35119.7,11710.85,9117.68
+CIP0000382,M00262,P0044,2025-01-15,2025-01-17,2,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-1879,552,Medical Back Problems w/o MCC,40105.77,21730.49,17335.55
+CIP0000383,M00073,P0046,2025-02-11,2025-02-12,1,Medicare,CMS Medicare,Original Medicare,MCR-OG-8342,871,Septicemia w MCC,21998.73,12659.68,11295.02
+CIP0000384,M00163,P0031,2025-08-06,2025-08-08,2,Commercial,Cigna,Open Access Plus,CIG-OAP-7081,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",35487.25,23065.78,17014.31
+CIP0000385,M00374,P0017,2025-01-15,2025-01-19,4,Commercial,Cigna,Open Access Plus,CIG-OAP-8750,552,Medical Back Problems w/o MCC,16650.2,6407.02,3947.42
+CIP0000386,M00079,P0043,2025-04-12,2025-04-14,2,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-6582,552,Medical Back Problems w/o MCC,74923.93,43006.85,38901.12
+CIP0000387,M00121,P0008,2025-02-12,2025-02-22,10,Self Pay,Self Pay,Self Pay,SPAY-2501,470,Major Joint Replacement w/o MCC,61059.84,20850.28,18968.59
+CIP0000388,M00280,P0056,2025-01-05,2025-01-10,5,Self Pay,Self Pay,Self Pay,SPAY-2712,552,Medical Back Problems w/o MCC,55243.98,24820.92,15852.18
+CIP0000389,M00398,P0051,2025-09-06,2025-09-07,1,Commercial,Cigna,Open Access Plus,CIG-OAP-9246,291,Heart Failure & Shock w MCC,70891.85,36240.86,31581.5
+CIP0000390,M00385,P0017,2025-06-04,2025-06-05,1,Commercial,Cigna,Open Access Plus,CIG-OAP-2676,177,Respiratory Infections & Inflammations w MCC,56234.5,35301.24,26432.81
+CIP0000391,M00056,P0056,2025-12-07,2025-12-11,4,Commercial,Cigna,Open Access Plus,CIG-OAP-3503,871,Septicemia w MCC,70602.42,23386.42,15930.05
+CIP0000392,M00285,P0034,2025-11-07,2025-11-08,1,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-1072,552,Medical Back Problems w/o MCC,22440.71,7608.65,5859.08
+CIP0000393,M00251,P0021,2025-11-06,2025-11-09,3,Commercial,Cigna,Open Access Plus,CIG-OAP-4015,871,Septicemia w MCC,24627.24,17217.78,14279.0
+CIP0000394,M00128,P0003,2025-02-28,2025-03-03,3,Commercial,Aetna,Open Access,AET-OA-7240,871,Septicemia w MCC,22044.1,8195.81,6685.32
+CIP0000395,M00133,P0019,2025-08-02,2025-08-04,2,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-3535,194,Simple Pneumonia & Pleurisy w CC,36374.69,24684.7,23084.26
+CIP0000396,M00115,P0039,2025-04-03,2025-04-08,5,Commercial,Aetna,Open Access,AET-OA-7242,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",60674.1,32731.4,21005.47
+CIP0000397,M00129,P0045,2025-09-07,2025-09-08,1,Medicare,CMS Medicare,Original Medicare,MCR-OG-4522,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",21792.37,9500.11,7473.24
+CIP0000398,M00279,P0005,2025-07-11,2025-07-12,1,Medicare Advantage,Blue Cross Blue Shield,Medicare Advantage PPO,BCBS-MA-4621,470,Major Joint Replacement w/o MCC,23063.56,14185.03,12026.32
+CIP0000399,M00213,P0047,2025-03-08,2025-03-09,1,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-5735,871,Septicemia w MCC,57772.44,27068.39,25034.13
+CIP0000400,M00297,P0025,2025-11-30,2025-12-03,3,Commercial,Aetna,Open Access,AET-OA-8015,871,Septicemia w MCC,76500.05,29715.49,27836.62
+CIP0000401,M00129,P0029,2025-07-04,2025-07-06,2,Medicare,CMS Medicare,Original Medicare,MCR-OG-4522,194,Simple Pneumonia & Pleurisy w CC,34544.02,20130.14,15581.83
+CIP0000402,M00116,P0025,2025-02-12,2025-02-14,2,Medicare Advantage,Blue Cross Blue Shield,Medicare Advantage PPO,BCBS-MA-6374,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",59861.18,30677.81,19934.26
+CIP0000403,M00009,P0044,2025-04-30,2025-05-04,4,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-7572,291,Heart Failure & Shock w MCC,49382.77,18523.45,17305.43
+CIP0000404,M00064,P0018,2025-01-20,2025-01-22,2,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-4571,194,Simple Pneumonia & Pleurisy w CC,16893.69,7938.02,5340.4
+CIP0000405,M00263,P0033,2025-04-30,2025-05-01,1,Commercial,Aetna,Open Access,AET-OA-8381,291,Heart Failure & Shock w MCC,67165.2,34748.46,24766.61
+CIP0000406,M00233,P0024,2025-10-25,2025-10-28,3,Medicare Advantage,Humana,Gold Plus HMO,HUM-MA-7941,291,Heart Failure & Shock w MCC,42059.77,16350.55,14850.74
+CIP0000407,M00146,P0036,2025-07-28,2025-07-31,3,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-2251,194,Simple Pneumonia & Pleurisy w CC,63775.71,24858.12,16036.66
+CIP0000408,M00197,P0032,2025-05-09,2025-05-19,10,Commercial,Aetna,Open Access,AET-OA-9437,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",44622.4,26310.63,20322.36
+CIP0000409,M00036,P0043,2025-12-06,2025-12-16,10,Medicare,CMS Medicare,Original Medicare,MCR-OG-3647,470,Major Joint Replacement w/o MCC,25804.64,12745.88,8049.87
+CIP0000410,M00167,P0052,2025-06-04,2025-06-06,2,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-2298,470,Major Joint Replacement w/o MCC,19926.68,10061.75,8038.78
+CIP0000411,M00020,P0036,2025-09-08,2025-09-10,2,Medicare,CMS Medicare,Original Medicare,MCR-OG-4750,470,Major Joint Replacement w/o MCC,78193.87,36867.05,34929.18
+CIP0000412,M00344,P0013,2025-06-04,2025-06-06,2,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-9614,871,Septicemia w MCC,57115.09,22076.58,20215.31
+CIP0000413,M00049,P0055,2025-04-26,2025-04-29,3,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-9375,470,Major Joint Replacement w/o MCC,23676.4,8788.16,5822.85
+CIP0000414,M00373,P0046,2025-05-21,2025-05-22,1,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-2641,177,Respiratory Infections & Inflammations w MCC,32547.16,15381.32,10820.48
+CIP0000415,M00104,P0014,2025-05-08,2025-05-12,4,Commercial,Aetna,Open Access,AET-OA-1474,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",74634.37,40981.86,34098.45
+CIP0000416,M00104,P0030,2025-10-01,2025-10-06,5,Commercial,Aetna,Open Access,AET-OA-1474,470,Major Joint Replacement w/o MCC,14074.97,9049.41,5832.63
+CIP0000417,M00033,P0052,2025-06-04,2025-06-08,4,Commercial,Aetna,Open Access,AET-OA-9666,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",18914.06,9754.32,7088.51
+CIP0000418,M00325,P0059,2025-04-19,2025-04-24,5,Commercial,Aetna,Open Access,AET-OA-7274,552,Medical Back Problems w/o MCC,66428.24,21439.76,18658.57
+CIP0000419,M00150,P0044,2025-08-03,2025-08-08,5,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-8565,291,Heart Failure & Shock w MCC,24986.46,11792.77,10280.4
+CIP0000420,M00073,P0001,2025-09-12,2025-09-19,7,Medicare,CMS Medicare,Original Medicare,MCR-OG-8342,871,Septicemia w MCC,71390.09,35874.24,24047.64
+CIP0000421,M00166,P0041,2025-11-21,2025-11-24,3,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-3392,291,Heart Failure & Shock w MCC,58597.3,29878.4,22404.78
+CIP0000422,M00363,P0014,2025-06-02,2025-06-04,2,Medicare,CMS Medicare,Original Medicare,MCR-OG-5612,552,Medical Back Problems w/o MCC,36682.93,21318.1,15545.3
+CIP0000423,M00156,P0007,2025-09-28,2025-10-01,3,Commercial,Cigna,Open Access Plus,CIG-OAP-3112,194,Simple Pneumonia & Pleurisy w CC,36360.12,20777.43,19379.46
+CIP0000424,M00063,P0013,2025-10-27,2025-10-28,1,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-1659,470,Major Joint Replacement w/o MCC,13783.29,9321.34,7092.32
+CIP0000425,M00146,P0033,2025-01-04,2025-01-05,1,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-2251,470,Major Joint Replacement w/o MCC,55187.79,34290.24,30034.15
+CIP0000426,M00114,P0052,2025-07-07,2025-07-09,2,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-6992,470,Major Joint Replacement w/o MCC,48797.73,18638.94,12114.52
+CIP0000427,M00179,P0053,2025-03-06,2025-03-07,1,Commercial,Cigna,Open Access Plus,CIG-OAP-3730,291,Heart Failure & Shock w MCC,70253.21,41667.28,25474.17
+CIP0000428,M00332,P0018,2025-08-04,2025-08-06,2,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-7102,470,Major Joint Replacement w/o MCC,30730.24,13095.89,12033.5
+CIP0000429,M00114,P0026,2025-09-12,2025-09-13,1,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-6992,470,Major Joint Replacement w/o MCC,18751.18,11966.07,7423.13
+CIP0000430,M00054,P0049,2025-08-27,2025-09-06,10,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-8777,177,Respiratory Infections & Inflammations w MCC,15464.78,10212.08,6174.69
+CIP0000431,M00286,P0040,2025-09-18,2025-09-21,3,Medicare,CMS Medicare,Original Medicare,MCR-OG-6993,291,Heart Failure & Shock w MCC,52501.57,30755.21,21680.76
+CIP0000432,M00257,P0056,2025-07-03,2025-07-05,2,Medicare,CMS Medicare,Original Medicare,MCR-OG-1519,552,Medical Back Problems w/o MCC,79006.69,38669.89,36309.93
+CIP0000433,M00202,P0020,2025-09-07,2025-09-08,1,Medicare,CMS Medicare,Original Medicare,MCR-OG-1741,470,Major Joint Replacement w/o MCC,38209.6,13390.76,8903.36
+CIP0000434,M00321,P0005,2025-08-22,2025-08-25,3,Commercial,Aetna,Open Access,AET-OA-9568,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",15427.21,6074.11,4200.44
+CIP0000435,M00306,P0005,2025-05-14,2025-05-21,7,Medicare,CMS Medicare,Original Medicare,MCR-OG-2350,194,Simple Pneumonia & Pleurisy w CC,20264.89,14157.95,10832.43
+CIP0000436,M00338,P0016,2025-03-11,2025-03-13,2,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-1509,871,Septicemia w MCC,78930.22,28684.57,24648.81
+CIP0000437,M00005,P0039,2025-06-15,2025-06-19,4,Commercial,Cigna,Open Access Plus,CIG-OAP-2291,177,Respiratory Infections & Inflammations w MCC,17504.6,11493.56,9359.42
+CIP0000438,M00014,P0036,2025-05-25,2025-05-28,3,Commercial,Cigna,Open Access Plus,CIG-OAP-1053,470,Major Joint Replacement w/o MCC,23215.62,9362.09,7894.96
+CIP0000439,M00203,P0047,2025-02-14,2025-02-15,1,Commercial,Cigna,Open Access Plus,CIG-OAP-5582,177,Respiratory Infections & Inflammations w MCC,14386.18,5101.62,3288.48
+CIP0000440,M00031,P0058,2025-07-24,2025-07-27,3,Medicare,CMS Medicare,Original Medicare,MCR-OG-8491,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",19395.95,7230.25,6042.28
+CIP0000441,M00153,P0028,2025-10-09,2025-10-11,2,Medicare,CMS Medicare,Original Medicare,MCR-OG-5059,871,Septicemia w MCC,77051.16,46795.79,41567.64
+CIP0000442,M00343,P0023,2025-11-19,2025-11-22,3,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-5835,470,Major Joint Replacement w/o MCC,45033.39,15469.47,10221.6
+CIP0000443,M00213,P0044,2025-01-03,2025-01-08,5,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-5735,291,Heart Failure & Shock w MCC,18388.27,11410.52,10093.38
+CIP0000444,M00016,P0053,2025-02-06,2025-02-07,1,Commercial,Aetna,Open Access,AET-OA-6038,470,Major Joint Replacement w/o MCC,49883.67,21096.43,15618.89
+CIP0000445,M00267,P0035,2025-07-16,2025-07-17,1,Commercial,Aetna,Open Access,AET-OA-2524,194,Simple Pneumonia & Pleurisy w CC,19874.94,6465.27,5882.45
+CIP0000446,M00073,P0003,2025-02-02,2025-02-06,4,Medicare,CMS Medicare,Original Medicare,MCR-OG-8342,194,Simple Pneumonia & Pleurisy w CC,28293.25,18786.16,15643.4
+CIP0000447,M00218,P0029,2025-11-15,2025-11-16,1,Self Pay,Self Pay,Self Pay,SPAY-7666,470,Major Joint Replacement w/o MCC,76411.99,46536.66,33381.46
+CIP0000448,M00343,P0052,2025-12-12,2025-12-17,5,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-5835,177,Respiratory Infections & Inflammations w MCC,27837.28,16113.71,14079.14
+CIP0000449,M00292,P0046,2025-01-18,2025-01-20,2,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-7703,194,Simple Pneumonia & Pleurisy w CC,38342.13,22325.98,19588.08
+CIP0000450,M00386,P0032,2025-01-23,2025-01-24,1,Medicare,CMS Medicare,Original Medicare,MCR-OG-2045,552,Medical Back Problems w/o MCC,51087.74,19290.11,16399.84
+CIP0000451,M00383,P0053,2025-05-09,2025-05-19,10,Commercial,Cigna,Open Access Plus,CIG-OAP-9409,177,Respiratory Infections & Inflammations w MCC,60583.18,21950.85,16682.61
+CIP0000452,M00246,P0019,2025-06-14,2025-06-16,2,Self Pay,Self Pay,Self Pay,SPAY-8846,552,Medical Back Problems w/o MCC,42044.87,24532.12,19200.85
+CIP0000453,M00315,P0026,2025-05-22,2025-05-24,2,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-6916,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",76906.01,44856.79,42391.74
+CIP0000454,M00375,P0042,2025-12-14,2025-12-17,3,Commercial,Aetna,Open Access,AET-OA-4892,552,Medical Back Problems w/o MCC,77741.27,42267.08,28722.5
+CIP0000455,M00110,P0042,2025-02-08,2025-02-12,4,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-4770,470,Major Joint Replacement w/o MCC,14308.59,8118.86,6084.43
+CIP0000456,M00397,P0026,2025-06-20,2025-06-22,2,Medicare,CMS Medicare,Original Medicare,MCR-OG-1293,470,Major Joint Replacement w/o MCC,12893.13,8766.12,6578.01
+CIP0000457,M00013,P0005,2025-12-28,2026-01-04,7,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-2876,871,Septicemia w MCC,50976.07,27375.49,20053.21
+CIP0000458,M00383,P0018,2025-10-12,2025-10-17,5,Commercial,Cigna,Open Access Plus,CIG-OAP-9409,291,Heart Failure & Shock w MCC,69625.39,32768.99,21815.53
+CIP0000459,M00320,P0005,2025-02-25,2025-03-01,4,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-6067,177,Respiratory Infections & Inflammations w MCC,40645.72,22361.0,17853.64
+CIP0000460,M00393,P0019,2025-12-23,2025-12-25,2,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-3470,194,Simple Pneumonia & Pleurisy w CC,66743.96,39696.46,30402.42
+CIP0000461,M00199,P0012,2025-12-26,2025-12-30,4,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-4110,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",21356.45,7677.38,6920.03
+CIP0000462,M00285,P0015,2025-07-29,2025-08-03,5,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-1072,177,Respiratory Infections & Inflammations w MCC,70322.0,21287.07,14154.83
+CIP0000463,M00253,P0038,2025-12-02,2025-12-04,2,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-1990,177,Respiratory Infections & Inflammations w MCC,70742.27,25433.17,18250.49
+CIP0000464,M00325,P0001,2025-03-15,2025-03-20,5,Commercial,Aetna,Open Access,AET-OA-7274,194,Simple Pneumonia & Pleurisy w CC,26057.21,9616.43,8751.71
+CIP0000465,M00112,P0021,2025-05-02,2025-05-04,2,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-7807,194,Simple Pneumonia & Pleurisy w CC,64636.49,22967.46,20122.19
+CIP0000466,M00352,P0021,2025-11-21,2025-11-23,2,Medicare Advantage,Humana,Gold Plus HMO,HUM-MA-2817,871,Septicemia w MCC,77961.54,27338.84,24986.46
+CIP0000467,M00335,P0019,2025-06-15,2025-06-17,2,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-8365,470,Major Joint Replacement w/o MCC,24529.23,11913.49,8286.95
+CIP0000468,M00325,P0026,2025-02-19,2025-02-23,4,Commercial,Aetna,Open Access,AET-OA-7274,194,Simple Pneumonia & Pleurisy w CC,19433.55,12661.66,11214.3
+CIP0000469,M00037,P0053,2025-04-29,2025-05-04,5,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-9938,177,Respiratory Infections & Inflammations w MCC,39225.68,13020.51,8775.12
+CIP0000470,M00339,P0043,2025-01-02,2025-01-12,10,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-4641,291,Heart Failure & Shock w MCC,64573.97,40437.35,27899.28
+CIP0000471,M00376,P0041,2025-05-31,2025-06-01,1,Commercial,Cigna,Open Access Plus,CIG-OAP-2609,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",33193.54,10867.63,8588.02
+CIP0000472,M00358,P0020,2025-08-15,2025-08-22,7,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-1020,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",19285.66,8837.56,7657.05
+CIP0000473,M00388,P0035,2025-05-16,2025-05-19,3,Self Pay,Self Pay,Self Pay,SPAY-7857,177,Respiratory Infections & Inflammations w MCC,15580.29,10452.41,9403.06
+CIP0000474,M00253,P0022,2025-09-04,2025-09-11,7,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-1990,871,Septicemia w MCC,21685.01,13501.92,9049.42
+CIP0000475,M00280,P0018,2025-06-02,2025-06-05,3,Self Pay,Self Pay,Self Pay,SPAY-2712,194,Simple Pneumonia & Pleurisy w CC,75524.22,34022.06,31582.47
+CIP0000476,M00280,P0041,2025-06-22,2025-07-02,10,Self Pay,Self Pay,Self Pay,SPAY-2712,194,Simple Pneumonia & Pleurisy w CC,24224.92,13984.66,10295.14
+CIP0000477,M00119,P0048,2025-08-12,2025-08-14,2,Medicare,CMS Medicare,Original Medicare,MCR-OG-7686,552,Medical Back Problems w/o MCC,59145.17,40655.96,36109.56
+CIP0000478,M00381,P0013,2025-05-31,2025-06-02,2,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-3909,194,Simple Pneumonia & Pleurisy w CC,62100.41,41271.81,27797.54
+CIP0000479,M00292,P0015,2025-07-08,2025-07-10,2,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-7703,552,Medical Back Problems w/o MCC,36447.5,13776.75,12269.96
+CIP0000480,M00163,P0018,2025-09-13,2025-09-15,2,Commercial,Cigna,Open Access Plus,CIG-OAP-7081,552,Medical Back Problems w/o MCC,51458.08,34028.25,32289.65
+CIP0000481,M00233,P0045,2025-09-28,2025-09-30,2,Medicare Advantage,Humana,Gold Plus HMO,HUM-MA-7941,871,Septicemia w MCC,46845.74,18516.75,13541.46
+CIP0000482,M00243,P0013,2025-09-22,2025-10-02,10,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-7824,552,Medical Back Problems w/o MCC,63542.21,43368.51,33538.46
+CIP0000483,M00199,P0035,2025-10-28,2025-10-29,1,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-4110,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",22234.82,7811.16,5945.8
+CIP0000484,M00235,P0015,2025-05-27,2025-05-28,1,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-6697,194,Simple Pneumonia & Pleurisy w CC,30482.15,13667.68,12393.05
+CIP0000485,M00156,P0029,2025-04-26,2025-04-30,4,Commercial,Cigna,Open Access Plus,CIG-OAP-3112,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",19477.3,12929.54,9014.67
+CIP0000486,M00244,P0032,2025-04-24,2025-04-29,5,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-8369,177,Respiratory Infections & Inflammations w MCC,37578.18,19625.83,15013.32
+CIP0000487,M00002,P0014,2025-10-27,2025-11-01,5,Commercial,Blue Cross Blue Shield,PPO Choice,BCBS-PPO-4257,552,Medical Back Problems w/o MCC,68592.2,36163.78,28325.85
+CIP0000488,M00190,P0022,2025-07-13,2025-07-20,7,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-3114,552,Medical Back Problems w/o MCC,71461.53,41843.48,29556.47
+CIP0000489,M00205,P0018,2025-02-04,2025-02-05,1,Commercial,Aetna,Open Access,AET-OA-8761,552,Medical Back Problems w/o MCC,19072.81,7868.56,5542.47
+CIP0000490,M00146,P0017,2025-12-26,2026-01-02,7,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-2251,194,Simple Pneumonia & Pleurisy w CC,28661.06,14698.62,13604.91
+CIP0000491,M00210,P0057,2025-10-05,2025-10-07,2,Commercial,Cigna,Open Access Plus,CIG-OAP-4340,552,Medical Back Problems w/o MCC,22080.18,12089.94,7729.67
+CIP0000492,M00359,P0018,2025-08-04,2025-08-08,4,Medicare Advantage,UnitedHealthcare,AARP Medicare Advantage,UHC-MA-6754,177,Respiratory Infections & Inflammations w MCC,73853.85,45863.92,38769.34
+CIP0000493,M00157,P0030,2025-03-01,2025-03-06,5,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-7937,194,Simple Pneumonia & Pleurisy w CC,39456.21,12340.68,7527.69
+CIP0000494,M00021,P0005,2025-10-14,2025-10-17,3,Medicare,CMS Medicare,Original Medicare,MCR-OG-9834,291,Heart Failure & Shock w MCC,26208.44,9227.08,7414.73
+CIP0000495,M00108,P0027,2025-08-10,2025-08-13,3,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-7302,552,Medical Back Problems w/o MCC,65609.62,28641.74,20767.17
+CIP0000496,M00243,P0008,2025-01-19,2025-01-23,4,Medicaid,Centene,Ambetter Medicaid,CNT-MCD-7824,194,Simple Pneumonia & Pleurisy w CC,75702.26,36272.97,34429.68
+CIP0000497,M00134,P0033,2025-11-19,2025-11-24,5,Medicare,CMS Medicare,Original Medicare,MCR-OG-8030,392,"Esophagitis, Gastroenteritis & Misc Digestive Disorders w/o MCC",23475.84,13818.07,8860.89
+CIP0000498,M00198,P0013,2025-11-26,2025-11-30,4,Commercial,UnitedHealthcare,Choice Plus,UHC-CP-2586,552,Medical Back Problems w/o MCC,31227.43,12138.05,8849.24
+CIP0000499,M00342,P0049,2025-08-14,2025-08-19,5,Commercial,Cigna,Open Access Plus,CIG-OAP-3831,177,Respiratory Infections & Inflammations w MCC,27335.85,15442.62,14020.13
+CIP0000500,M00283,P0042,2025-02-24,2025-02-26,2,Medicaid,State Medicaid,Medicaid Managed Care,MCD-MCO-9454,470,Major Joint Replacement w/o MCC,22248.77,13924.32,9919.94

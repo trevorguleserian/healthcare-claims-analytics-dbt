@@ -1,0 +1,18 @@
+version: 2
+
+exposures:
+  - name: claims_utilization_dashboard
+    type: dashboard
+    maturity: high
+    description: >
+      Executive dashboard analyzing utilization and financial performance by payer and provider group.
+      Built on dbt marts and SCD2 snapshot-aware models.
+
+    depends_on:
+      - ref('mart_utilization_by_payer')
+      - ref('mart_ip_drg_summary')
+      - ref('mart_utilization_provider_group_asof')
+
+    owner:
+      name: Trevor
+      email: trevor@example.com

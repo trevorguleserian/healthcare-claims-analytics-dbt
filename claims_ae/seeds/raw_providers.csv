@@ -1,0 +1,61 @@
+provider_id,provider_first_name,provider_last_name,credential,is_physician,specialty,provider_group,is_active,npi
+P0001,Michael,Garcia,NP,false,Gastroenterology,Northside Medical Group,true,2309821506
+P0002,Daniel,Rodriguez,PA,false,Oncology,Northside Medical Group,true,0100167618
+P0003,William,Thomas,APRN,false,Cardiology,Riverbend Clinic Network,true,0461849926
+P0004,Patricia,Taylor,APRN,false,Orthopedics,CityCare Physicians,true,1739348356
+P0005,Elizabeth,Garcia,MD,true,Neurology,Lakeshore Health Partners,true,7530011972
+P0006,John,Taylor,MD,true,Orthopedics,CityCare Physicians,true,7447012045
+P0007,Nancy,Hernandez,MD,true,Orthopedics,Northside Medical Group,true,0022557941
+P0008,Barbara,Hernandez,MD,true,Gastroenterology,Midwest Ortho Associates,false,4676212021
+P0009,Susan,Jackson,DO,true,Oncology,Riverbend Clinic Network,true,9659027716
+P0010,Joseph,Johnson,MD,true,Dermatology,Northside Medical Group,true,8993588916
+P0011,Nancy,Davis,DO,true,Gastroenterology,Lakeshore Health Partners,true,8900287721
+P0012,Jessica,Hernandez,MD,true,Emergency Medicine,Northside Medical Group,true,8663177971
+P0013,Jessica,Anderson,MD,true,Neurology,Riverbend Clinic Network,true,1660880199
+P0014,Daniel,Martinez,PA,false,Physical Therapy,Lakeshore Health Partners,true,7550375899
+P0015,Jessica,Thompson,APRN,false,Neurology,Northside Medical Group,true,3055488510
+P0016,Jennifer,Thomas,MD,true,Gastroenterology,Northside Medical Group,true,3316373516
+P0017,Mary,Lee,PA,false,Oncology,Northside Medical Group,true,7798270808
+P0018,Susan,Jackson,DO,true,Physical Therapy,Lakeshore Health Partners,true,2216995866
+P0019,Karen,Thompson,PA,false,Emergency Medicine,Midwest Ortho Associates,false,4722698485
+P0020,Matthew,Moore,APRN,false,Cardiology,Lakeshore Health Partners,true,4522885158
+P0021,Jessica,Jackson,APRN,false,Gastroenterology,Riverbend Clinic Network,true,8460810620
+P0022,Nancy,Johnson,MD,true,Radiology,CityCare Physicians,true,2043805719
+P0023,Nancy,Moore,PA,false,Physical Therapy,Midwest Ortho Associates,true,4066658004
+P0024,Michael,Martin,PA,false,Neurology,Lakeshore Health Partners,true,5989334721
+P0025,Jennifer,Garcia,APRN,false,Orthopedics,Midwest Ortho Associates,true,4842294057
+P0026,Matthew,Jones,MD,true,Dermatology,Windy City Specialists,true,9479851583
+P0027,Jennifer,Taylor,MD,true,Physical Therapy,Lakeshore Health Partners,true,8615335554
+P0028,Michael,Martin,DO,true,Physical Therapy,Riverbend Clinic Network,true,5739930561
+P0029,Richard,Rodriguez,DO,true,Emergency Medicine,Northside Medical Group,true,5887704358
+P0030,John,Brown,MD,true,Physical Therapy,Windy City Specialists,true,1336138612
+P0031,James,Anderson,APRN,false,Primary Care,Northside Medical Group,true,2481934667
+P0032,Daniel,Gonzalez,MD,true,Primary Care,Midwest Ortho Associates,true,8091901581
+P0033,Elizabeth,Perez,MD,true,Orthopedics,CityCare Physicians,true,7660728326
+P0034,Sarah,Martinez,NP,false,Radiology,CityCare Physicians,true,5088210099
+P0035,Richard,Moore,DO,true,Orthopedics,CityCare Physicians,true,5368222394
+P0036,Michael,Brown,MD,true,Oncology,Northside Medical Group,true,8781414139
+P0037,Jessica,Hernandez,MD,true,Cardiology,Northside Medical Group,true,1357759492
+P0038,Charles,Jackson,MD,true,Dermatology,Midwest Ortho Associates,true,5336452577
+P0039,Joseph,Lopez,PA,false,Neurology,Windy City Specialists,true,9142834110
+P0040,Thomas,Lee,MD,true,Oncology,Windy City Specialists,true,9308488725
+P0041,Richard,Davis,PA,false,Oncology,Riverbend Clinic Network,true,2788165803
+P0042,Karen,Perez,MD,true,Physical Therapy,Lakeshore Health Partners,true,2992750373
+P0043,John,Rodriguez,MD,true,Primary Care,Riverbend Clinic Network,true,5677005184
+P0044,Lisa,Rodriguez,APRN,false,Oncology,Lakeshore Health Partners,true,6591846386
+P0045,Barbara,Lopez,DO,true,Neurology,Windy City Specialists,true,2723184322
+P0046,Jennifer,Lopez,APRN,false,Orthopedics,Riverbend Clinic Network,true,5177739260
+P0047,Linda,Johnson,MD,true,Oncology,Lakeshore Health Partners,true,8092024286
+P0048,Karen,Jackson,APRN,false,Emergency Medicine,Northside Medical Group,true,9772369292
+P0049,Karen,Perez,DO,true,Radiology,Riverbend Clinic Network,true,7991366210
+P0050,Michael,Taylor,PA,false,Physical Therapy,Riverbend Clinic Network,true,2912799088
+P0051,Patricia,Williams,DO,true,Radiology,Windy City Specialists,true,0686508637
+P0052,Richard,Lopez,APRN,false,Oncology,Northside Medical Group,true,4731498643
+P0053,James,Thompson,APRN,false,Primary Care,Windy City Specialists,true,8063565126
+P0054,Daniel,Jackson,MD,true,Physical Therapy,Midwest Ortho Associates,true,9463688725
+P0055,Sarah,Moore,DO,true,Emergency Medicine,Windy City Specialists,true,6213721386
+P0056,David,Moore,APRN,false,Primary Care,Lakeshore Health Partners,true,0127961143
+P0057,Barbara,Williams,APRN,false,Gastroenterology,Midwest Ortho Associates,true,8490277038
+P0058,Elizabeth,Miller,MD,true,Oncology,Windy City Specialists,true,3920530214
+P0059,Richard,Lopez,APRN,false,Gastroenterology,Windy City Specialists,true,0118489554
+P0060,Linda,Martin,NP,false,Neurology,Midwest Ortho Associates,true,4268181845

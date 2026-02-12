@@ -1,0 +1,25 @@
+version: 2
+
+sources:
+  - name: raw
+    database: AE_CLAIMS_DB
+    schema: RAW
+    description: >
+      Raw synthetic healthcare claims data loaded via CSV.
+      Represents operational source system extracts.
+
+    tables:
+      - name: raw_claims_header
+        description: Claim header-level data (one row per claim).
+
+      - name: raw_claims_line
+        description: Claim line-level detail including CPT, modifiers, and financial amounts.
+
+      - name: raw_members
+        description: Member demographic and insurance enrollment data.
+
+      - name: raw_providers
+        description: Provider directory including specialty and credential.
+
+      - name: raw_ip_claims
+        description: Inpatient DRG-based claim data including admit and discharge dates.
