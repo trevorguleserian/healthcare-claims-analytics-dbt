@@ -31,4 +31,20 @@ with src as (
     {% endif %}
 )
 
-select * from src
+select
+  ip_claim_id,
+  member_id,
+  provider_id,
+  admit_date,
+  discharge_date,
+  length_of_stay,
+  payer_type,
+  insurance_name,
+  plan_name,
+  plan_id,
+  drg_code,
+  drg_description,
+  charge_amount,
+  allowed_amount,
+  paid_amount
+from src

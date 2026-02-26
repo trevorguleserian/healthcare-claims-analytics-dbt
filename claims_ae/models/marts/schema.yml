@@ -18,6 +18,13 @@ models:
       - name: zip
         description: "Member ZIP code."
 
+  - name: dim_member_current
+    description: "Current member dimension row per member using SCD2 snapshot (latest active record where dbt_valid_to is null)."
+    columns:
+      - name: member_id
+        description: "Unique identifier for a member."
+        tests: [not_null, unique]
+
   - name: dim_provider
     description: "Provider dimension with specialty, group affiliation, and credential attributes."
     columns:
@@ -40,6 +47,13 @@ models:
         description: "Boolean indicating whether provider is currently active."
       - name: npi
         description: "National Provider Identifier."
+
+  - name: dim_provider_current
+    description: "Current provider dimension row per provider using SCD2 snapshot (latest active record where dbt_valid_to is null)."
+    columns:
+      - name: provider_id
+        description: "Unique identifier for a provider."
+        tests: [not_null, unique]
 
   - name: fct_claim_line
     description: "Outpatient/professional claim line fact at claim_id + line_num grain."
@@ -144,3 +158,47 @@ models:
         description: "Total allowed amount for the inpatient stay."
       - name: paid_amount
         description: "Total paid amount for the inpatient stay."
+
+  - name: mart_financial_kpis
+    description: "Payer-level financial KPIs such as allowed, paid, and member counts."
+    columns:
+      - name: payer_type
+        description: "High-level payer category."
+        tests: [not_null]
+
+  - name: mart_monthly_trends
+    description: "Monthly trends of claims volume and financials by payer and place of service."
+    columns:
+      - name: month
+        description: "Month bucket of claim_start_date."
+        tests: [not_null]
+      - name: payer_type
+        description: "High-level payer category."
+      - name: place_of_service
+        description: "Place of service code."
+
+  - name: mart_ip_drg_summary
+    description: "Inpatient utilization and financials summarized by DRG and payer."
+    columns:
+      - name: payer_type
+        description: "High-level payer category."
+      - name: drg_code
+        description: "DRG code."
+      - name: drg_description
+        description: "DRG description."
+
+  - name: mart_provider_specialty_mix
+    description: "Provider group and specialty mix of utilization and allowed amounts by payer."
+    columns:
+      - name: provider_group
+        description: "Provider group/organization affiliation."
+      - name: specialty
+        description: "Provider specialty."
+      - name: payer_type
+        description: "High-level payer category."
+
+  - name: mart_utilization_by_payer
+    description: "Outpatient/professional utilization summarized by payer."
+    columns:
+      - name: payer_type
+        description: "High-level payer category."

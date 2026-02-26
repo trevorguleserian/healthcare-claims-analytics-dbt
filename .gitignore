@@ -1,10 +1,20 @@
-# Python-generated files
+# Python
 __pycache__/
-*.py[oc]
+*.py[cod]
 build/
 dist/
-wheels/
-*.egg-info
+*.egg-info/
 
-# Virtual environments
-.venv
+# Environments
+.venv/
+.env
+
+# Streamlit secrets
+.streamlit/secrets.toml
+**/secrets.toml
+
+# Private keys / certs
+*.p8
+*.pem
+keys/
+**/keys/
